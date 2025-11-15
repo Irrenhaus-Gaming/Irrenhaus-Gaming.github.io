@@ -1,0 +1,46 @@
+{
+    "wiki-layout": {
+        "title": "Irrenhaus Gaming Wiki Layout",
+        "description": "Layout configuration for the Irrenhaus Gaming wiki pages.",
+        "version": "1.0.0",
+        "author": "Irrenhaus Gaming Team",
+        "last_updated": "2025-11-15"
+    },
+    "layout": {
+        "main-pages": [
+            "index.md",
+            "sonstiges/FAQ.md",
+            "sonstiges/Glossar.md"
+        ],
+        "relative-pages": {
+            "economy": {
+                "title": "Wirtschaft",
+                "main_page": "economy/wirtschaft_moneten.md",
+                "path": "economy",
+                "pages": [
+                    {
+                        "file": "adminshop.md",
+                        "title": "Adminshop",
+                        "description": "Informationen zum Adminshop"
+                    },
+                    {
+                        "file": "auktionen.md",
+                        "title": "Auktionen",
+                        "description": "Informationen zu Auktionen"
+                    },
+                    {
+                        "file": "handel_shops.md",
+                        "title": "Handel Shops",
+                        "description": "Informationen zu Handel Shops"
+                    },
+                    {
+                        "file": "shops_adminshop.md",
+                        "title": "Shops",
+                        "description": "Informationen zu Shops"
+                    }
+                ]
+            }
+        }
+    }
+
+}
