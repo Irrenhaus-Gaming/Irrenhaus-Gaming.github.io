@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Irrenhaus Gaming</title>
+	<meta charset="utf-8" />
+	<meta lang="de-DE" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<link rel="stylesheet" href="/assets/css/highlight-js-theme.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css" />
+	<noscript>
+		<link rel="stylesheet" href="/assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="right-sidebar is-preload" data-bs-theme="dark">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		{% include 'page-header.html' %}
+
+		<!-- Main -->
+		<div class="wrapper style1">
+
+			<div class="container">
+				<div class="row gtr-200">
+					<div class="col-8 col-12-mobile" id="content">
+						<article id="main">
+							<header>
+								<h2><a href="#">{{page.title}}</a></h2>
+								{% if page.subtitle %}
+								<p>
+									{{page.subtitle}}
+								</p>
+								{% endif %}
+							</header>
+							{% if page.img %}
+							{% if page.imgurl %}
+							<a href="{{ page.imgurl }}" class="image featured"><img src="{{ page.img }}" alt="" /></a>
+							{% else %}
+							<div href="{{ page.imgurl }}" class="image featured"><img src="{{ page.img }}" alt="" />
+							</div>
+							{% endif %}
+							{% endif %}
+							{{ page_content | safe}}
+						</article>
+					</div>
+					<div class="col-4 col-12-mobile" id="sidebar">
+						<hr class="first" />
+						<section>
+							<header>
+								<h3><a href="#">Discord</a></h3>
+							</header>
+							<iframe src="https://discord.com/widget?id=1157772945784066088&theme=dark" width="350"
+								height="70" allowtransparency="true" frameborder="0"
+								sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+							<footer>
+								<a href="http://discord.irrenhaus-gaming.de/" class="button" target="_blank">Tritt dem
+									Discord bei!</a>
+							</footer>
+						</section>
+						<hr />
+						<section>
+							<header>
+								<h3><a href="#">Relevante Seiten</a></h3>
+							</header>
+
+							<div class="row gtr-50">
+								{% for relative_page in relative_pages %}
+								{% if page.file != relative_page.file %}
+
+								{%if relative_page.img %}
+								<div class="col-4">
+									<a href="{{ relative_page.output_filename }}" class="image fit"><img
+											src="{{ relative_page.img }}" alt="" /></a>
+								</div>
+								<a class="col-8" href="{{ relative_page.output_filename }}">
+									<h4>{{relative_page.title}}</h4>
+									<p>
+										{{relative_page.description}}
+									</p>
+								</a>
+								{% else %}
+								<a class="col-12" href="{{ relative_page.output_filename }}">
+									<h4>{{relative_page.title}}</h4>
+									<p>
+										{{relative_page.description}}
+									</p>
+								</a>
+
+								{% endif %}
+								{% endif %}
+								{% endfor %}
+
+							</div>
+							<footer>
+								<a href="#" class="button">Mehr anzeigen</a>
+							</footer>
+						</section>
+					</div>
+				</div>
+				<hr />
+				<!-- <div class="row">
+					<article class="col-4 col-12-mobile special">
+						<a href="#" class="image featured"><img src="/images/pic07.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Gravida aliquam penatibus</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+							etiam
+							porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat
+							integer interdum.
+						</p>
+					</article>
+					<article class="col-4 col-12-mobile special">
+						<a href="#" class="image featured"><img src="/images/pic08.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+							etiam
+							porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat
+							integer interdum.
+						</p>
+					</article>
+					<article class="col-4 col-12-mobile special">
+						<a href="#" class="image featured"><img src="/images/pic09.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Magna laoreet et aliquam</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+							etiam
+							porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat
+							integer interdum.
+						</p>
+					</article>
+				</div> -->
+			</div>
+
+		</div>
+
+		<!-- Footer -->
+		{% include 'footer.html' %}
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.dropotron.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js"></script>
+	<script src="/assets/js/highlight.min.js"></script>
+	<script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+	<script>
+		hljs.highlightAll();
+		hljs.addPlugin(
+			new CopyButtonPlugin({
+				autohide: false, // Always show the copy button
+			})
+		);
+	</script>
+
+</body>
+
+</html>

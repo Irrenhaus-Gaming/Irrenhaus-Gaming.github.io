@@ -1,18 +1,34 @@
-Häufige Fragen (FAQ)
+**Q: Wie erhalte ich Moneten am schnellsten?**  
+**A:** Moneten bekommst du vor allem durch das Abschließen von Quests, durch den Verkauf von Items in Shops oder Auktionen und durch tägliches Voten. Auch Erkunden und Farmen liefern Rohstoffe, die du verkaufen kannst.
 
-Q: Wie erhalte ich Moneten am schnellsten?
-A: Durch Quests abschließen, Items in Shops/Auktionen verkaufen und tägliches Voten. Auch das Erkunden und Farmen gibt Rohstoffe zum Verkauf.
+**Q: Wie kann ich mich mit anderen treffen (Teleport)?**  
+**A:** Nutze Teleport-Anfragen oder vordefinierte Warps. Beispiele:
 
-Q: Wie kann ich mich mit anderen treffen (Teleport)?
-A: Verwende /tpa <Name>, danach akzeptiert der andere mit /tpaccept. Auch /warp-Punkte und Nether-Portale sind üblich.
+Fordere Teleport zu <Name\> an:
+```
+/tpa <Name>
+```
 
-Q: Was tun bei Problemen mit dem Voice-Chat?
-A: Prüfe, ob du die Voice-Mod installiert hast und ob Port 24454 offen ist
-modrepo.de
-. Ansonsten ins Support-Chat gehen.
+Akzeptiere eine Teleport-Anfrage:
+```
+/tpaccept 
+```
 
-Q: Welche Items kann man nicht handeln/verkaufen?
-A: Quest- und Event-Items, ggf. besondere Rüstungen oder Schlüssel sind meist vom Handel ausgeschlossen.
+Springe zu einem Warp-Punkt (sofern freigeschaltet):
+```
+/warp <Name>
+```
 
-Q: Wie nutze ich /back?
-A: /back bringt dich an den Ort zurück, von dem du zuletzt weggeportet bist (funktioniert nach /home, /warp, /spawn, etc.).
+Nether-Portale und andere Schnellreisemethoden (Portale, Warps) sind ebenfalls üblich.
+
+
+**Q: Was tun bei Problemen mit dem Voice-Chat?**  
+**A:** Prüfe zuerst, ob du die benötigte Voice-Mod auf deinem Client installiert hast. Wenn das nicht hilft, wende dich an den Support-Chat oder die Admins.
+
+
+**Q: Welche Items kann man nicht handeln / verkaufen?**  
+**A:** Quest-Items, Event-Items und spezielle Schlüssel oder gebundene Rüstungen sind häufig vom Handel ausgeschlossen. Diese Items lassen sich meist nicht in ChestShops oder Auktionen listen.
+
+
+**Q: Wie nutze ich `/back`?**  
+**A:** Der Befehl `/back` bringt dich an den Ort zurück, von dem du zuletzt weggeportet wurdest (z. B. vor `/home`, `/warp`, `/spawn`). Nutze ihn, wenn du dich verirrt hast oder nach einem misslungenen Teleport wieder an den Ausgangspunkt willst.

@@ -8,9 +8,26 @@
     },
     "layout": {
         "main-pages": [
-            "index.md",
-            "sonstiges/FAQ.md",
-            "sonstiges/Glossar.md"
+            {
+                "file": "index.md",
+                "output_filename": "index.html",
+                "title": "Startseite",
+                "subtitle": "Willkommen im Irrenhaus Gaming Wiki",
+                "description": "Die Hauptseite des Wikis",
+                "img": "/images/irrenhauslogo_16_zu_9_centered.png"
+            },
+            {
+                "output_filename": "FAQ.html",
+                "file": "sonstiges/FAQ.md",
+                "title": "FAQ",
+                "description": "Häufig gestellte Fragen"
+            },
+            {
+                "output_filename": "Glossar.html",
+                "file": "sonstiges/Glossar.md",
+                "title": "Glossar",
+                "description": "Begriffe und Definitionen"
+            }
         ],
         "relative-pages": {
             "economy": {

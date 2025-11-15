@@ -1,15 +1,24 @@
-Inhaltsverzeichnis
+# Inhaltsverzeichnis
 
-Dieses Wiki ist in thematische Abschnitte unterteilt.
+Dieses Wiki ist in thematische Abschnitte unterteilt. Jede Kategorie fasst verwandte Seiten zusammen, damit Du schnell findest, was Du suchst. Umfangreiche Themen werden bei Bedarf in Unterseiten ausgelagert.
 
-Allgemein: Basiswissen und Spielersysteme (Handel, Shops, Teleport, Quests, Inventar, Wirtschaft etc.).
+## Kategorien
+- **Allgemein**  
+  Basiswissen und Spielersysteme (Handel, Shops, Teleport, Quests, Inventar, Wirtschaft etc.).
 
-Gameplay: Dinge direkt im Spiel (Mobs, Bosse, Dungeons, Weltgenese etc.).
+- **Gameplay**  
+  Dinge direkt im Spiel: Mobs, Elite-Mobs und Bosse, Dungeons, Weltgenerierung, besondere Biome und Loot-Systeme.
 
-FAQ: Häufig gestellte Fragen und Antworten.
+- **FAQ**  
+  Häufig gestellte Fragen und kurze, praktische Antworten für neue Spieler und Veteranen.
 
-Glossar: Wichtige Begriffe.
+- **Glossar**  
+  Wichtige Begriffe und Abkürzungen in kurzer, leicht verständlicher Form.
 
-Admin & Quellen: Liste der benutzten Plugins und Links zu Dokumentationen.
 
-Innerhalb der Abschnitte sind die Seiten alphabetisch sortiert. Einige Hauptseiten sind in Unterseiten gegliedert (z.B. separate Seiten für Bossmechaniken, Dungeon-Stufen usw.).
+## Ordnung und Navigation
+- Die Seiten sind innerhalb jeder Kategorie alphabetisch sortiert.  
+- Lange Themen werden in sinnvolle Unterseiten aufgeteilt (z. B. „Bossmechaniken“, „Dungeon-Loot-Tiers“). Solche Unterseiten werden von der entsprechenden Hauptseite verlinkt.  
+- Nutze die Suche oder die Dateinamen, um schnell zu einer Seite zu springen.
+
+Wenn Du eine Struktur- oder Inhaltsergänzung vorschlagen willst, melde dies bitte im Discord-Channel oder per Nachricht an die Admins.

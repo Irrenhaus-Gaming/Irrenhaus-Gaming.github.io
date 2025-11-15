@@ -12,12 +12,14 @@
  --bs-body-bg: #f0f4f4;
  --bs-body-color: #212529;
  --bs-header-color: #483949;
+ --bs-strong-color: #483949;
 }
 
 [data-bs-theme=dark] {
  --bs-body-bg: #121212;
  --bs-body-color: #f0f4f4;
  --bs-header-color: #cea6d1;
+ --bs-strong-color: #d3a6d6;
 }
 
 html, body, div, span, applet, object,
@@ -153,7 +155,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: var(--bs-strong-color);
 	}
 
 	em, i {
@@ -2188,7 +2190,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("/images/header.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
