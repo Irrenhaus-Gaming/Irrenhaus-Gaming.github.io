@@ -13,13 +13,15 @@
  --bs-body-color: #212529;
  --bs-header-color: #483949;
  --bs-strong-color: #483949;
+ --bs-highlight-bg: #fff;
 }
 
 [data-bs-theme=dark] {
- --bs-body-bg: #121212;
+ --bs-body-bg: #2b2a2a;
  --bs-body-color: #f0f4f4;
- --bs-header-color: #cea6d1;
- --bs-strong-color: #d3a6d6;
+ --bs-header-color: #e48e1d;
+ --bs-strong-color: #e48e1d;
+ --bs-highlight-bg: #1e1e1e;
 }
 
 html, body, div, span, applet, object,
@@ -2178,8 +2180,8 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		margin: 0 0 0 0;
+		padding: 6em 0 0 0;
 	}
 
 		.wrapper.style2 {
@@ -2422,7 +2424,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: var(--bs-highlight-bg);
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2473,7 +2475,7 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
+		/*padding: 6em 0 6em 0;*/
 		background: #2b252c;
 		color: #fff;
 	}
@@ -2604,7 +2606,7 @@ input, select, textarea {
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: var(--bs-highlight-bg);
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
