@@ -1,0 +1,19 @@
+{
+    "page-layout": {
+        "title": "Irrenhaus Gaming Website Layout",
+        "description": "Layout configuration for the Irrenhaus Gaming website.",
+        "version": "1.0.0",
+        "author": "Irrenhaus Gaming Team",
+        "last_updated": "2025-11-15"
+    },
+    "pages": [
+        {
+            "file": "index.html"
+        },
+        {
+            "file": "minecraft.html"
+        }
+
+    ]
+
+}

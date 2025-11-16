@@ -14,17 +14,29 @@
                 "title": "Startseite",
                 "subtitle": "Willkommen im Irrenhaus Gaming Wiki",
                 "description": "Die Hauptseite des Wikis",
-                "img": "/images/irrenhauslogo_16_zu_9_centered.png"
+                "img": "/images/favicon/favicon-96x96.png"
             },
             {
-                "output_filename": "FAQ.html",
-                "file": "sonstiges/FAQ.md",
+                "output_filename": "regeln.html",
+                "file": "sonstiges/regeln.md",
+                "title": "Regeln",
+                "description": "Regeln und Richtlinien"
+            },
+            {
+                "output_filename": "inhaltsverzeichnis.html",
+                "file": "sonstiges/inhaltsverzeichnis.md",
+                "title": "Inhaltsverzeichnis",
+                "description": "Navigation durch das Wiki"
+            },
+            {
+                "output_filename": "faq.html",
+                "file": "sonstiges/faq.md",
                 "title": "FAQ",
                 "description": "Häufig gestellte Fragen"
             },
             {
-                "output_filename": "Glossar.html",
-                "file": "sonstiges/Glossar.md",
+                "output_filename": "glossar.html",
+                "file": "sonstiges/glossar.md",
                 "title": "Glossar",
                 "description": "Begriffe und Definitionen"
             }
@@ -38,22 +50,26 @@
                     {
                         "file": "adminshop.md",
                         "title": "Adminshop",
-                        "description": "Informationen zum Adminshop"
+                        "description": "Informationen zum Adminshop",
+                        "output_filename": "adminshop.html"
                     },
                     {
                         "file": "auktionen.md",
                         "title": "Auktionen",
-                        "description": "Informationen zu Auktionen"
+                        "description": "Informationen zu Auktionen",
+                        "output_filename": "auktionen.html"
                     },
                     {
                         "file": "handel_shops.md",
                         "title": "Handel Shops",
-                        "description": "Informationen zu Handel Shops"
+                        "description": "Informationen zu Handel Shops",
+                        "output_filename": "handel_shops.html"
                     },
                     {
                         "file": "shops_adminshop.md",
                         "title": "Shops",
-                        "description": "Informationen zu Shops"
+                        "description": "Informationen zu Shops",
+                        "output_filename": "shops_adminshop.html"
                     }
                 ]
             }

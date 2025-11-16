@@ -9,10 +9,11 @@ WIKI_SOURCES = "wiki-sources"
 WIKI_OUTPUT = "wiki"
 TEMPLATE_NAME = "wiki-base.html"
 
-def render_page(env, page, relative_pages = {}):
+def render_page(env, page, relative_pages = {}, relative_path= ""):
+    print(f"Rendering page: {page.get('file')} with relative path: {relative_path}")
     template = env.get_template(os.path.basename(TEMPLATE_NAME))
-    output_path= os.path.join(WIKI_OUTPUT,page.get("output_filename"))
-    with open(os.path.join(WIKI_SOURCES, page.get("file")), encoding='utf-8') as f:
+    output_path= os.path.join(WIKI_OUTPUT, relative_path, page.get("output_filename"))
+    with open(os.path.join(WIKI_SOURCES, relative_path, page.get("file")), encoding='utf-8') as f:
         page_content = markdown.markdown(f.read(), extensions=['fenced_code', 'tables', 'smarty'])
     
     output_html = template.render(
@@ -44,6 +45,8 @@ def main():
     for group, value in wiki_layout.get("layout", {}).get("relative-pages", {}).items():
         for page in value.get("pages", []):
             print(f"Generating page: {page['file']}")
+            relevant_pages = wiki_layout.get("layout",{}).get("main-pages", []) + value.get("pages", [])
+            render_page(env, page, relevant_pages , value.get("path"))
 
 
 if __name__ == "__main__":

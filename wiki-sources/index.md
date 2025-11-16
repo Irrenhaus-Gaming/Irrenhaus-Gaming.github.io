@@ -20,5 +20,3 @@ Dieses Wiki ist in thematische Abschnitte unterteilt. Jede Kategorie fasst verwa
 - Die Seiten sind innerhalb jeder Kategorie alphabetisch sortiert.  
 - Lange Themen werden in sinnvolle Unterseiten aufgeteilt (z. B. „Bossmechaniken“, „Dungeon-Loot-Tiers“). Solche Unterseiten werden von der entsprechenden Hauptseite verlinkt.  
 - Nutze die Suche oder die Dateinamen, um schnell zu einer Seite zu springen.
-
-Wenn Du eine Struktur- oder Inhaltsergänzung vorschlagen willst, melde dies bitte im Discord-Channel oder per Nachricht an die Admins.
