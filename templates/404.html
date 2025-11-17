@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Irrenhaus Gaming</title>
+	{% include 'header-imports.html' %}
+	<link rel="stylesheet" href="/assets/css/404.css">
+</head>
+
+<body class="right-sidebar is-preload" data-bs-theme="dark">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		{% include 'page-header.html' %}
+
+		<!-- Main -->
+			<div class="content">
+				<canvas class="snow" id="snow"></canvas>
+				<div class="main-text">
+					<h1 style="color: #5d7399; ">Oh Mist<br />Seite nicht gefunden</h1><a style="color: #5d7399;" class="home-link" href="#">Zurück zur
+						Startseite.</a>
+				</div>
+				<div class="ground">
+					<div class="mound">
+						<div class="mound_text">404</div>
+						<div class="mound_spade"></div>
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer -->
+		{% include 'footer.html' %}
+
+	</div>
+
+	<!-- Scripts -->
+	{% include 'scripts.html' %}
+	<script src="/assets/js/404.js"></script>
+
+
+</body>
+
+</html>
