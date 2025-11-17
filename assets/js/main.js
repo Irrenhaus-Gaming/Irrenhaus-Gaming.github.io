@@ -77,140 +77,149 @@
 
 	// Carousels.
 		$('.carousel').each(function() {
+			var $t       = $(this),
+				$reel    = $t.children('.reel'),
+				$items   = $reel.children('article');
 
-			var	$t = $(this),
-				$forward = $('<span class="forward"></span>'),
-				$backward = $('<span class="backward"></span>'),
-				$reel = $t.children('.reel'),
-				$items = $reel.children('article');
+			var autoSpeedPxPerMs    = (settings && settings.carousels && settings.carousels.autoSpeed) ? settings.carousels.autoSpeed : 0.02;
+			var hoverMultiplier     = (settings && settings.carousels && settings.carousels.hoverMultiplier) ? settings.carousels.hoverMultiplier : 4;
+			var forwardMultiplier   = (settings && settings.carousels && settings.carousels.forwardMultiplier) ? settings.carousels.forwardMultiplier : 8;
+			var backwardMultiplier  = (settings && settings.carousels && settings.carousels.backwardMultiplier) ? settings.carousels.backwardMultiplier : 8;
+			var fadeInEnabled       = settings && settings.carousels && settings.carousels.fadeIn;
+			var fadeDelay           = (settings && settings.carousels && settings.carousels.fadeDelay) ? settings.carousels.fadeDelay : 25;
 
-			var	pos = 0,
-				leftLimit,
-				rightLimit,
-				itemWidth,
-				reelWidth,
-				timerId;
+			var itemWidth = $items.outerWidth(true) || 240;
 
-			// Items.
-				if (settings.carousels.fadeIn) {
+			var $clones = $items.clone();
+			$reel.append($clones);
 
-					$items.addClass('loading');
+			var originalReelWidth = null;
+			var pos = 0;
 
-					$t.scrollex({
-						mode: 'middle',
-						top: '-20vh',
-						bottom: '-20vh',
-						enter: function() {
+			if (fadeInEnabled) {
+				$items.addClass('loading');
 
-							var	timerId,
-								limit = $items.length - Math.ceil($window.width() / itemWidth);
+				$t.scrollex({
+					mode: 'middle',
+					top: '-20vh',
+					bottom: '-20vh',
+					enter: function() {
+						var timerId,
+							limit = $items.length - Math.ceil($window.width() / itemWidth);
 
-							timerId = window.setInterval(function() {
-								var x = $items.filter('.loading'), xf = x.first();
+						timerId = window.setInterval(function() {
+							var x = $items.filter('.loading'), xf = x.first();
 
-								if (x.length <= limit) {
+							if (x.length <= limit) {
+								window.clearInterval(timerId);
+								$items.removeClass('loading');
+								return;
+							}
 
-									window.clearInterval(timerId);
-									$items.removeClass('loading');
-									return;
+							xf.removeClass('loading');
 
-								}
+						}, fadeDelay);
+					}
+				});
+			}
 
-								xf.removeClass('loading');
+			var $forward = $t.find('.forward');
+			if (!$forward || $forward.length === 0) $forward = $('<span class="forward"></span>').appendTo($t).hide();
+			var $backward = $t.find('.backward');
+			if (!$backward || $backward.length === 0) $backward = $('<span class="backward"></span>').appendTo($t).hide();
 
-							}, settings.carousels.fadeDelay);
+			var baseVelocity = -autoSpeedPxPerMs;
+			var velocity = baseVelocity;
 
-						}
-					});
+			var rafId = null;
+			var lastTime = null;
 
+			function step(ts) {
+				if (lastTime === null) lastTime = ts;
+				var dt = ts - lastTime;
+				lastTime = ts;
+
+				if (!browser.mobile && originalReelWidth) {
+					pos += velocity * dt;
+
+					if (pos <= -originalReelWidth) pos += originalReelWidth;
+					if (pos > 0) pos -= originalReelWidth;
+
+					$reel.css('transform', 'translate(' + Math.round(pos) + 'px, 0)');
 				}
 
-			// Main.
-				$t._update = function() {
-					pos = 0;
-					rightLimit = (-1 * reelWidth) + $window.width();
-					leftLimit = 0;
-					$t._updatePos();
-				};
+				rafId = window.requestAnimationFrame(step);
+			}
 
-				$t._updatePos = function() { $reel.css('transform', 'translate(' + pos + 'px, 0)'); };
+			// === NEW: pause when hovering carousel (unless hovering arrows) ===
+			$t.on('mouseenter', function(e) {
+				// if mouse enters carousel but not onto an arrow, pause
+				if (!$(e.target).closest('.forward, .backward').length) {
+					velocity = 0;
+				}
+			}).on('mouseleave', function() {
+				// restore auto-scroll when leaving carousel entirely
+				velocity = baseVelocity;
+			});
 
-			// Forward.
-				$forward
-					.appendTo($t)
-					.hide()
-					.mouseenter(function(e) {
-						timerId = window.setInterval(function() {
-							pos -= settings.carousels.speed;
-
-							if (pos <= rightLimit)
-							{
-								window.clearInterval(timerId);
-								pos = rightLimit;
-							}
-
-							$t._updatePos();
-						}, 10);
-					})
-					.mouseleave(function(e) {
-						window.clearInterval(timerId);
-					});
-
-			// Backward.
-				$backward
-					.appendTo($t)
-					.hide()
-					.mouseenter(function(e) {
-						timerId = window.setInterval(function() {
-							pos += settings.carousels.speed;
-
-							if (pos >= leftLimit) {
-
-								window.clearInterval(timerId);
-								pos = leftLimit;
-
-							}
-
-							$t._updatePos();
-						}, 10);
-					})
-					.mouseleave(function(e) {
-						window.clearInterval(timerId);
-					});
-
-			// Init.
-				$window.on('load', function() {
-
-					reelWidth = $reel[0].scrollWidth;
-
-					if (browser.mobile) {
-
-						$reel
-							.css('overflow-y', 'hidden')
-							.css('overflow-x', 'scroll')
-							.scrollLeft(0);
-						$forward.hide();
-						$backward.hide();
-
-					}
-					else {
-
-						$reel
-							.css('overflow', 'visible')
-							.scrollLeft(0);
-						$forward.show();
-						$backward.show();
-
-					}
-
-					$t._update();
-
-					$window.on('resize', function() {
-						reelWidth = $reel[0].scrollWidth;
-						$t._update();
-					}).trigger('resize');
-
+			// arrows still force directional speed while hovered
+			$forward
+				.appendTo($t)
+				.hide()
+				.on('mouseenter', function() {
+					// keep same (leftward) direction, faster
+					velocity = baseVelocity * forwardMultiplier;
+				})
+				.on('mouseleave', function() {
+					// if still inside carousel, return to paused state; otherwise restore auto
+					velocity = $t.is(':hover') ? 0 : baseVelocity;
 				});
+
+			$backward
+				.appendTo($t)
+				.hide()
+				.on('mouseenter', function() {
+					// invert direction (rightward)
+					velocity = Math.abs(baseVelocity) * backwardMultiplier;
+				})
+				.on('mouseleave', function() {
+					velocity = $t.is(':hover') ? 0 : baseVelocity;
+				});
+
+			$window.on('load', function() {
+				var fullWidth = $reel[0].scrollWidth;
+				originalReelWidth = Math.round(fullWidth / 2) || fullWidth;
+
+				if (browser.mobile) {
+					$reel
+						.css('overflow-y', 'hidden')
+						.css('overflow-x', 'scroll')
+						.scrollLeft(0);
+					$forward.hide();
+					$backward.hide();
+					if (rafId) { window.cancelAnimationFrame(rafId); rafId = null; lastTime = null; }
+				} else {
+					$reel
+						.css('overflow', 'visible')
+						.scrollLeft(0);
+					$forward.show();
+					$backward.show();
+
+					if (pos <= -originalReelWidth || pos > 0) pos = 0;
+
+					if (!rafId) {
+						lastTime = null;
+						rafId = window.requestAnimationFrame(step);
+					}
+				}
+
+				$window.on('resize', function() {
+					var fw = $reel[0].scrollWidth;
+					originalReelWidth = Math.round(fw / 2) || fw;
+					if (pos <= -originalReelWidth) pos = 0;
+				}).trigger('resize');
+
+			});
 
 		});
 
