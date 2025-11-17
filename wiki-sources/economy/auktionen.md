@@ -1,50 +1,89 @@
-Auktionen
+# Auktionen
 
-Auktionen ermöglichen es, Items im Server-übergreifenden Marktplatz zu versteigern. Spieler können eigene Auktionen anlegen, auf andere bieten und Auktionen abbrechen.
+Auktionen ermöglichen es, Items im serverübergreifenden Marktplatz zu versteigern. Du kanns eigene Auktionen anlegen, auf andere bieten und Auktionen abbrechen.
 
-Wichtige Befehle:
+## Wichtige Befehle
 
+Öffne das Auktionsinterface:
 ```
-/auktion verkaufen <Preis>   // Listet das im Cursor gehaltene Item für <Preis> Moneten als Auktion.
-/auktion bieten <Preis>      // Bietet <Preis> Moneten auf die ausgewählte Auktion.
-/auktion abbrechen <ID>      // Bricht deine eigene Auktion mit der gegebenen ID ab.
-/auktion abholen             // Holt dir Erlöse von abgeschlossenen Auktionen.
+/ah
 ```
 
-Beispiel:
-/auktion verkaufen Diamant 100 – setzt 1 Diamant für 100 Moneten in die Auktion (verkaufen).
-/auktion bieten 120 – bietet 120 Moneten auf die aktuelle Auktion.
+Brich deine eigenen Auktionen ab:
+```
+/auktion cancel
+```
 
-GUI/Ingame-Interaktionen:
-Nach Eintragen der Auktion via Befehl erscheint eine Bestätigung im Chat. Es gibt normalerweise kein zusätzliches GUI (Auktionslisten werden per Chat angezeigt). Man kann Auktionsergebnisse mit /auktion abholen eintreiben.
+Hole die Erlöse von abgeschlossenen Auktionen und die Gegenstände von abgelaufenen oder abgebrochenen Auktionen ab:
 
-Serverunterschiede:
+```
+/auktion collect
+```
 
-Nur Adventure: Auktionen sind nur im Adventure-Welt nutzbar.
 
-Tipps / Best Practices:
+## Auktion erstellen
 
-Setze einen realistischen Preis, um die Chance auf Käufer zu erhöhen.
+Öffnet das Auktionsinterface für das im Cursor gehaltene Item:
 
-Behalte laufende Auktionen im Auge: Andere können jederzeit überbieten.
+```
+/ah auction
+```
 
-Abgebrochene Auktionen erstatten dir das Item zurück.
 
-Einschränkungen / Fallstricke:
+![Beispiel Screenshot](/images/examples/auction.PNG "Auktion Erstellen")
 
-Maximaler Verkauf: Nur ein Stack pro Auktion (1 Item) kann verkauft werden.
+### Interface Erklärung:
 
-Nicht handelbare Items können nicht in Auktionen gelistet werden.
+- Der Gegenstand, der zum Verkauf angeboten werden soll, wird in der **Mitte der Kiste** (zwischen den beiden Schildern) angezeigt.
 
-Nach einem erfolgreichen Verkauf musst du die Moneten mit /auktion abholen abholen.
+- Mit dem **oberen Schild** lässt sich die Anzahl der angebotenen Gegenstände ändern, z. B. um einen ganzen Stack zu verkaufen.
 
-FAQ:
+- Durch Klicken auf den **Diamanten** kann zwischen Verkauf und Biet-Auktion umgeschaltet werden.
 
-F: Wie sehe ich meine Auktionen?
-A: Erstelle/wiederhole den Befehl /auktion list, um alle Auktionen einzusehen (sofern unterstützt).
+  - **Bieten**:
+    Bei einer Biet-Auktion steht die Auktion für eine bestimmte Zeit im Markt. Spieler können Gebote abgeben; nach Ablauf der Zeit erhält der Spieler mit dem höchsten Gebot den Gegenstand.
 
-F: Kann ich Auktionen vorzeitig stoppen?
-A: Ja, mit /auktion abbrechen <ID> kannst du deine eigene Auktion abbrechen.
+  - **Verkauf**:
+    Bei einem Verkauf steht die Auktion für eine bestimmte Zeit im Markt und Spieler können die Auktion jederzeit sofort kaufen. Wenn ein Spieler die Auktion kauft, kann er im Bestätigungsmenü die Menge wählen dadurch ändert sich natürlich auch der Gesamtpreis (weniger Menge = niedrigerer Preis).
 
-F: Was passiert, wenn niemand bietet?
-A: Das Item bleibt weiterhin gelistet, bis du es abbrichst oder jemand bietet.
+- Per Klick auf den **Goldbarren** kann die Währung für den Gegenstand umgestellt werden. Unterstützte Währungen sind Moneten, XP und Items.
+
+- Per Klick auf die **Glasscheiben** kann der Preis der Auktion angepasst werden. Grüne Scheiben erhöhen den Preis, rote Scheiben verringern ihn. Einzelne Scheibe = ±1, eine 10er-Scheibe = ±10, ein Stack (64) = ±100. Alternativ kann über das untere Schild der Preis direkt eingegeben werden.
+
+- Per Klick auf die **grüne Wolle** wird die Auktion bestätigt. 
+- Mit Klick auf die **rote Wolle** wird die Auktion abgebrochen.
+
+Wenn niemand den Artikel gekauft hat und die Zeit abgelaufen ist, erscheint der Gegenstand im Menü **Abgelaufene Auktionen**, wo du ihn wieder abholen kannst.
+
+```
+/ah open expiredauctions
+```
+
+## Bestätigungen und Discord-Benachrichtigungen
+
+Nach dem Anlegen einer Auktion erscheint eine Bestätigung im Chat. Außerdem wird ein Post im Discord [Auktionshaus Chat](https://discord.com/channels/1157772945784066088/1318892133041705022) erstellt. Halte immer ein Auge auf neue Auktionen!
+
+![Beispiel Screenshot](/images/examples/discord_ah_anouncement.PNG "Discord Post")
+
+## Tipps
+
+- Setze einen realistischen Preis, um die Chance auf Käufer zu erhöhen.  
+- Der Mindestpreis ist 500 Moneten. Verkaufe also nur hochwertige Gegenstände im Auktionshaus.  
+- Behalte laufende Biet-Auktionen im Auge. Andere Spieler können dich jederzeit überbieten.  
+- Abgebrochene Auktionen geben dir das Item zurück.
+
+## Einschränkungen
+
+- **[Elite- und Bossloot](/kampf/elites)** sowie **verfluchte Gegenstände** können **nicht** im Auktionshaus gelistet werden.
+
+## FAQ
+
+**F: Wie sehe ich meine Auktionen?**  
+**A:** Nutze ```/ah open myauctions```, um alle deine Auktionen einzusehen.
+
+**F: Kann ich Auktionen vorzeitig stoppen?**  
+**A:** Ja. Mit ```/ah cancel``` kannst du deine eigene Auktion beenden.
+
+**F: Was passiert, wenn niemand bietet?**  
+**A:** Wenn niemand gekauft hat und die Zeit abgelaufen ist, erscheint der Artikel im Menü **Abgelaufene Auktionen**. Öffne es mit ```/ah open expiredauctions``` und sammle deinen Gegenstand wieder ein.
+
