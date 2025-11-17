@@ -1,0 +1,490 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Irrenhaus Gaming</title>
+		<meta charset="utf-8" />
+	<meta lang="de-DE" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<link rel="stylesheet" href="/assets/css/highlight-js-theme.min.css" />
+	<link rel="stylesheet" href="/assets/css/highlightjs-copy.min.css" />
+	<noscript>
+		<link rel="stylesheet" href="/assets/css/noscript.css" />
+	</noscript>
+	<link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
+	<link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="Irrenhaus" />
+	<link rel="manifest" href="/images/favicon/site.webmanifest" />
+</head>
+
+<body class="right-sidebar is-preload" data-bs-theme="dark">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header">
+
+	<!-- Inner -->
+	<div class="inner">
+		<header>
+			<h1><a href="index.html" id="logo">Irrenhaus Gaming</a></h1>
+		</header>
+	</div>
+
+	<!-- Nav -->
+	<nav id="nav">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+            <a href="#">Minecraft</a>
+            <ul>
+                <li><a href="/minecraft">Übersicht</a></li>
+                <li><a href="/under-construction">Server Info</a></li>
+                <li>
+                    <a href="#">Wiki &hellip;</a>
+                    <ul>
+                        <li><a href="/wiki/">Übersicht</a></li>
+                        <li><a href="/wiki/faq">FAQ</a></li>
+                        <li><a href="/wiki/glossar/">Begriffe</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="/under-construction">DayZ</a></li>
+        <li><a href="/under-construction">VRising</a></li>
+        <li><a href="/under-construction">Ark Survival Ascended</a></li>
+    </ul>
+</nav>
+
+</div>
+
+		<!-- Main -->
+		<div class="wrapper style1">
+
+			<div class="container">
+				<div class="row gtr-200">
+					<div class="col-8 col-12-mobile" id="content">
+						<article id="main">
+							<header>
+								<h2><a href="#">Shops</a></h2>
+								
+							</header>
+							
+							<p>ChestShops und AdminShops</p>
+<p>Auf ChestShops-Seiten legen Spieler eigene Kauf-/Verkaufsshops an, indem sie Schilder an Kisten setzen. AdminShops (Server-Shops) sind besondere, von Admins erstellte Shops mit unbegrenztem Bestand.</p>
+<p>ChestShop (Selbst erstellte Läden):
+Du platzierst ein Schild an einer Kiste. Auf dem Schild steht in Zeile 1 [shop], in Zeile 2 der Typ und Preis (z.B. B 64 100 für Verkauf von 64 Stück zum Preis 100 Moneten), in Zeile 3 die Menge (z.B. 64). Danach klickst du mit dem gewünschten Item in der Hand auf das Schild, um es zu registrieren.</p>
+<p>Rechtsklick auf das fertige Schild: Wenn ein Spieler das Schild rechtsklickt, kauft er das Item (Typ B oder S entscheidet, ob Spieler vom Schild kauft oder verkauft).</p>
+<p>Kasse auffüllen: Du musst die Kiste befüllen. Items spawnen nicht automatisch.</p>
+<p>Benachrichtigungen: Mit /chestshop toggle-notifications kannst du Ton- und Chat-Benachrichtigungen von Shop-Aktionen ein- bzw. ausschalten.</p>
+<p>AdminShops (Server-Läden):
+Diese Shops sind vom Server bereitgestellte ChestShops mit unbegrenztem Lager. Spieler kaufen bei diesen automatisch, ohne dass Items in der Kiste ausgehen (nicht bestätigt). In der Praxis funktionieren sie wie normale ChestShops – nur dass das Server-Lager konstant aufgefüllt ist (dies ist meist durch Admin-Kiste und Plugin-Einstellung garantiert).</p>
+<p>Wichtige Befehle:</p>
+<pre><code>/chestshop toggle-notifications   // Benachrichtigungen an- oder ausschalten.
+/chestshop notify                 // Zeigt aktuelle Notificationseinstellungen an.
+</code></pre>
+<p>Beispiel:
+Lege ein Schild wie folgt an:</p>
+<pre><code>[shop]
+B 64 100
+Wolle 64
+</code></pre>
+<p>Dann halte in der Hand 64 Stück Wolle und rechtsklicke das Schild. Du verkaufst 64 Wolle für 100 Moneten an Käufer.</p>
+<p>GUI/Ingame-Interaktionen:
+Keine speziellen Menüs. Beim Erstellen eines ChestShops-Schildes erscheint eine Bestätigung im Chat. Beim Kauf erscheinen ebenfalls Chatmeldungen. Spieler können mit Shift-Klick meist die volle Stackmenge in Shops handeln.</p>
+<p>Serverunterschiede:</p>
+<p>Lobby/Bauwelt: Hier werden meist keine ChestShops erlaubt (Selbstgebasteltes, eventuell nur Dekoshops).</p>
+<p>Adventure: ChestShops und AdminShops sind hier aktiv, damit Spieler dort handeln können.</p>
+<p>Tipps / Best Practices:</p>
+<p>Beim Erstellen sind genaue Itemnamen nötig (mit exakter Bezeichnung).</p>
+<p>Prüfe die Schildformatierung, sonst funktioniert der Shop nicht.</p>
+<p>Höre auf Tipps wie: B steht für „Buy“ (Verkaufen an Shop), S für „Sell“ (Kaufen vom Shop).</p>
+<p>Fülle immer genug Ware in die Kiste ein, sonst läuft dein Shop schnell leer.</p>
+<p>Einschränkungen / Fallstricke:</p>
+<p>ChestShops können gestört werden, wenn der Blocktyp oder die Position verändert wird.</p>
+<p>Du kannst nur so viele Items verkaufen, wie in der Kiste vorhanden sind.</p>
+<p>Manche wertvolle Items (z.B. event-spezifische Items) sind aus ChestShops ausgeschlossen (werden nicht als Shop akzeptiert).</p>
+<p>FAQ:</p>
+<p>F: Wie lösche ich ein Shop-Schild?
+A: Entferne einfach das Schild oder den Block darunter. Der Shop wird dadurch aufgehoben.</p>
+<p>F: Kann ich auch kaufen und gleichzeitig verkaufen?
+A: Ein Schild enthält nur einen Modus (Kaufen oder Verkaufen). Du müsstest zwei Schilder anlegen, um beides zu ermöglichen.</p>
+<p>F: Was ist der Unterschied zu AdminShops?
+A: AdminShops haben unbegrenzt Items. Spieler können direkt vom Server-Shop kaufen (kein individuelles Kisten-Management nötig).</p>
+
+							<p> Wenn Du eine Struktur- oder Inhaltsergänzung vorschlagen willst, melde dies bitte im Discord-Channel oder per Nachricht an die Admins.</p>
+						</article>
+					</div>
+					<div class="col-4 col-12-mobile" id="sidebar">
+						<hr class="first" />
+						<section>
+							<header>
+								<h3><a href="http://discord.irrenhaus-gaming.de/">Discord</a></h3>
+							</header>
+							<iframe src="https://discord.com/widget?id=1157772945784066088&theme=dark" width="350"
+								height="70" allowtransparency="true" frameborder="0"
+								sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+							<footer>
+								<a href="http://discord.irrenhaus-gaming.de/" class="button" target="_blank">Tritt dem
+									Discord bei!</a>
+							</footer>
+						</section>
+						<hr />
+						<section>
+							<header>
+								<h3><a href="/wiki/inhaltsverzeichnis">Relevante Seiten</a></h3>
+							</header>
+
+							<div class="row gtr-50">
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/economy/adminshop">
+									<h4>Adminshop</h4>
+									<p>
+										Informationen zum Adminshop
+									</p>
+								</a>
+
+								
+								
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/economy/auktionen">
+									<h4>Auktionen</h4>
+									<p>
+										Informationen zu Auktionen
+									</p>
+								</a>
+
+								
+								
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/economy/handel_shops">
+									<h4>Handel Shops</h4>
+									<p>
+										Informationen zu Handel Shops
+									</p>
+								</a>
+
+								
+								
+								
+								
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/index">
+									<h4>Startseite</h4>
+									<p>
+										Die Hauptseite des Wikis
+									</p>
+								</a>
+
+								
+								
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/regeln">
+									<h4>Regeln</h4>
+									<p>
+										Regeln und Richtlinien
+									</p>
+								</a>
+
+								
+								
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/inhaltsverzeichnis">
+									<h4>Inhaltsverzeichnis</h4>
+									<p>
+										Navigation durch das Wiki
+									</p>
+								</a>
+
+								
+								
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/faq">
+									<h4>FAQ</h4>
+									<p>
+										Häufig gestellte Fragen
+									</p>
+								</a>
+
+								
+								
+								
+								
+								
+								
+								
+
+								
+								<a class="col-12" href="/wiki/glossar">
+									<h4>Glossar</h4>
+									<p>
+										Begriffe und Definitionen
+									</p>
+								</a>
+
+								
+								
+								
+
+							</div>
+							<footer>
+								<a href="#" class="button">Mehr anzeigen</a>
+							</footer>
+						</section>
+					</div>
+				</div>
+				<hr />
+				<!-- <div class="row">
+					<article class="col-4 col-12-mobile special">
+						<a href="#" class="image featured"><img src="/images/pic07.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Gravida aliquam penatibus</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+							etiam
+							porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat
+							integer interdum.
+						</p>
+					</article>
+					<article class="col-4 col-12-mobile special">
+						<a href="#" class="image featured"><img src="/images/pic08.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+							etiam
+							porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat
+							integer interdum.
+						</p>
+					</article>
+					<article class="col-4 col-12-mobile special">
+						<a href="#" class="image featured"><img src="/images/pic09.jpg" alt="" /></a>
+						<header>
+							<h3><a href="#">Magna laoreet et aliquam</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor
+							etiam
+							porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat
+							integer interdum.
+						</p>
+					</article>
+				</div> -->
+			</div>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+    <div class="container">
+        <div class="row">
+
+            <!-- Tweets 
+            <section class="col-4 col-12-mobile">
+                <header>
+                    <h2 class="icon brands fa-twitter circled"><span class="label">Tweets</span></h2>
+                </header>
+                <ul class="divided">
+                    <li>
+                        <article class="tweet">
+                            Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
+                            <span class="timestamp">5 minutes ago</span>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="tweet">
+                            Hendrerit rutrum quisque.
+                            <span class="timestamp">30 minutes ago</span>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="tweet">
+                            Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
+                            <span class="timestamp">3 hours ago</span>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="tweet">
+                            Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
+                            <span class="timestamp">5 hours ago</span>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            -->
+            <!-- Posts 
+            <section class="col-4 col-12-mobile">
+                <header>
+                    <h2 class="icon solid fa-file circled"><span class="label">Posts</span></h2>
+                </header>
+                <ul class="divided">
+                    <li>
+                        <article class="post stub">
+                            <header>
+                                <h3><a href="#">Nisl fermentum integer</a></h3>
+                            </header>
+                            <span class="timestamp">3 hours ago</span>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="post stub">
+                            <header>
+                                <h3><a href="#">Phasellus portitor lorem</a></h3>
+                            </header>
+                            <span class="timestamp">6 hours ago</span>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="post stub">
+                            <header>
+                                <h3><a href="#">Magna tempus consequat</a></h3>
+                            </header>
+                            <span class="timestamp">Yesterday</span>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="post stub">
+                            <header>
+                                <h3><a href="#">Feugiat lorem ipsum</a></h3>
+                            </header>
+                            <span class="timestamp">2 days ago</span>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            -->
+            <!-- Photos 
+            <section class="col-4 col-12-mobile">
+                <header>
+                    <h2 class="icon solid fa-camera circled"><span class="label">Photos</span></h2>
+                </header>
+                <div class="row gtr-25">
+                    <div class="col-6">
+                        <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
+                    </div>
+                </div>
+            </section>
+            -->
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-12">
+
+                <!-- Contact -->
+                <section class="contact">
+                    <header>
+                        <h3>Willkommen im Irrenhaus!</h3>
+                    </header>
+                    <p>Werde Teil des Wahnsinns und hinterlasse Spuren im Chaos.</p>
+                    <ul class="icons">
+                        <li><a href="http://discord.irrenhaus-gaming.de/" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
+                    </ul>
+                </section>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <ul class="menu">
+                        <li>&copy; Irrenhaus-Gaming. All rights reserved.</li>
+                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.dropotron.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/browser.min.js"></script>
+	<script src="/assets/js/breakpoints.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<script src="/assets/js/main.js"></script>
+	<script src="/assets/js/highlight.min.js"></script>
+	<script src="/assets/js/highlightjs-copy.min.js"></script>
+	<script>
+		hljs.highlightAll();
+		hljs.addPlugin(
+			new CopyButtonPlugin({
+				autohide: false, // Always show the copy button
+			})
+		);
+	</script>
+
+
+</body>
+
+</html>
