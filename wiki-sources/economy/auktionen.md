@@ -29,8 +29,7 @@ Hole die Erlöse von abgeschlossenen Auktionen und die Gegenstände von abgelauf
 /ah auction
 ```
 
-
-![Beispiel Screenshot](/images/examples/auction.PNG "Auktion Erstellen")
+![Beispiel Screenshot](/images/examples/auction.PNG "Auktion Erstellen"){style="max-width:100%;height:auto;display:block;"}
 
 ### Interface Erklärung:
 
@@ -63,7 +62,7 @@ Wenn niemand den Artikel gekauft hat und die Zeit abgelaufen ist, erscheint der 
 
 Nach dem Anlegen einer Auktion erscheint eine Bestätigung im Chat. Außerdem wird ein Post im Discord [Auktionshaus Chat](https://discord.com/channels/1157772945784066088/1318892133041705022) erstellt. Halte immer ein Auge auf neue Auktionen!
 
-![Beispiel Screenshot](/images/examples/discord_ah_anouncement.PNG "Discord Post")
+![Beispiel Screenshot](/images/examples/discord_ah_anouncement.PNG "Discord Post"){style="max-width:100%;height:auto;display:block;"}
 
 ## Tipps
 
@@ -82,7 +81,7 @@ Nach dem Anlegen einer Auktion erscheint eine Bestätigung im Chat. Außerdem wi
 **A:** Nutze ```/ah open myauctions```, um alle deine Auktionen einzusehen.
 
 **F: Kann ich Auktionen vorzeitig stoppen?**  
-**A:** Ja. Mit ```/ah cancel``` kannst du deine eigene Auktion beenden.
+**A:** Ja. Mit ```/ah cancel``` kannst du deine eigene Auktion abbrechen.
 
 **F: Was passiert, wenn niemand bietet?**  
 **A:** Wenn niemand gekauft hat und die Zeit abgelaufen ist, erscheint der Artikel im Menü **Abgelaufene Auktionen**. Öffne es mit ```/ah open expiredauctions``` und sammle deinen Gegenstand wieder ein.

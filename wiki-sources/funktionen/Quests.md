@@ -132,3 +132,50 @@ A: Wähle sie im Journal aus oder nutze /quests list und /quests take <Name>.
 
 F: Kann ich mehrere Quests gleichzeitig machen?
 A: Ja, oft kannst du mehrere in verschiedenen Kategorien parallel laufen lassen.
+
+
+Überall in der Abenteuerwelt gibt es Aufgaben (Quests). Mit ihnen erhältst du Ziele und Belohnungen, um Abwechslung ins Spiel zu bringen.
+
+Quests annehmen
+
+Befehle:
+
+/quests list – Zeigt verfügbare Quests (ggf. Seitenweise) an.
+
+/quests take <Quest-Name> – Nimm eine Quest an (Bsp.: /quests take Monsterjäger).
+
+/quests quit <Quest-Name> – Brich eine bereits angenommene Quest ab.
+
+Quest-Journal: Mit /quests journal (oder /quest) öffnet sich ein Questbuch oder Journal. Dort findest du Details zu laufenden Quests und Fortschritten.
+
+NPCs: In manchen Dungeons stehen NPCs bereit, die Quests geben. Ein Kartograf (Raven) in einer Taverne kann dir z.B. Schatzkarten als Quests anbieten.
+
+Kategorien: Es gibt verschiedene Quest-Kategorien wie Materialquests (Baue X Blöcke ab), Monsterquests (Töte X Zombies), Sammelquests (Sammle Items) usw. (exakte Kategorien sind serverabhängig).
+
+Belohnungen
+
+Items und Erfahrung: Am Ende jeder Quest erhältst du vordefinierte Belohnungen wie spezielle Items, Bücher, Erfahrungspunkte oder Moneten.
+
+Quest-Punkte: Manche Quests vergüten zusätzliche Questpunkte, mit denen du dich in Ranglisten oder Belohnungs-Trees platzierst. (Nicht alle Server nutzen Punkte.)
+
+Karten: Durch Handel mit dem Kartografen oder durch Quests bekommst du Schatzkarten, die zu besonderen Loot-Verstecken führen.
+
+Tipps und Einschränkungen
+
+Mehrere Quests gleichzeitig: Du kannst meist mehrere Quests gleichzeitig annehmen, solange du die Limits beachtest (z.B. 3 Aufgaben).
+
+Fortschritt zeigen: In deinem Questjournal siehst du immer, wie viel du bereits erledigt hast.
+
+Tägliche Quests: Es kann tägliche oder einmalige Quests geben. Die genauen Regeln können variieren. (Details oft im Systemmenü oder durch /quests list ersichtlich.)
+
+(nicht bestätigt): Ein Quest kann mit Abgaben verbunden sein (z.B. bringe Items zu einer NPC).
+
+FAQ: Quests
+
+Wie starte ich eine Quest? Sieh dir /quests list an und wähle eine Aufgabe. Du kannst auch Quests starten, indem du bestimmte NPCs ansprichst (z.B. Tavernenkartograf).
+
+Wo finde ich das Questbuch? Benutze /quests journal oder /quest, um das Questbuch zu öffnen. Es zeigt alle aktiven Quests.
+
+Kann ich Quests abbrechen? Ja, mit /quests quit <Quest-Name> brichst du eine Aufgabe ab. Manchmal verlierst du damit die Belohnungschancen.
+
+Bekomme ich Moneten? Viele Quests belohnen dich mit Moneten. Schau in der Questbeschreibung nach; manche geben direkt Geld als Belohnung.

@@ -13,8 +13,7 @@
                 "output_filename": "index.html",
                 "title": "Startseite",
                 "subtitle": "Willkommen im Irrenhaus Gaming Wiki",
-                "description": "Die Hauptseite des Wikis",
-                "img": "/images/favicon/favicon-96x96.png"
+                "description": "Die Hauptseite des Wikis"
             },
             {
                 "output_filename": "regeln.html",

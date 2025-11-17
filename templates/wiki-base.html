@@ -62,26 +62,31 @@
 						<hr />
 						<section>
 							<header>
-								<h3><a href="#">Relevante Seiten</a></h3>
+								<h3><a href="/wiki/inhaltsverzeichnis">Relevante Seiten</a></h3>
 							</header>
 
 							<div class="row gtr-50">
 								{% for relative_page in relative_pages %}
 								{% if page.file != relative_page.file %}
+								{% if relative_path and relative_path != "" and not relative_page.isMainPage %}
+								{% set relative_page_url = relative_path + "/" + relative_page.output_filename|replace('.html','') %}
+								{% else %}
+								{% set relative_page_url = relative_page.output_filename|replace('.html','') %}
+								{% endif %}
 
 								{%if relative_page.img %}
 								<div class="col-4">
-									<a href="/wiki/{{ relative_page.output_filename }}" class="image fit"><img
+									<a href="/wiki/{{ relative_page_url }}" class="image fit"><img
 											src="{{ relative_page.img }}" alt="" /></a>
 								</div>
-								<a class="col-8" href="/wiki/{{ relative_page.output_filename }}">
+								<a class="col-8" href="/wiki/{{ relative_page_url }}">
 									<h4>{{relative_page.title}}</h4>
 									<p>
 										{{relative_page.description}}
 									</p>
 								</a>
 								{% else %}
-								<a class="col-12" href="/wiki/{{ relative_page.output_filename }}">
+								<a class="col-12" href="/wiki/{{ relative_page_url }}">
 									<h4>{{relative_page.title}}</h4>
 									<p>
 										{{relative_page.description}}

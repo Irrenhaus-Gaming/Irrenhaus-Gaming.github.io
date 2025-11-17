@@ -1,40 +1,71 @@
-Besondere Verzauberungen (Vane-System)
+Verzauberungen und magische Items
 
-Der Server hat ein eigenes, erweitertes Verzauberungssystem („Vane Enchantments“ und „Vane Trifles“). Diese neuen Verzauberungen und Mechaniken funktionieren spielintern ohne direkte Befehle.
+Neben den klassischen Verzauberungen gibt es viele neue, die besondere Effekte auf Werkzeug, Rüstung oder sogar spezielle Gegenstände bringen. Viele stammen aus neuen Abenteuern.
 
-Alte Schriften: Es gibt seltene Bücher (‚Ancient Tomes‘), die man in bestimmten Dungeons findet. Diese können zu „Buch der Götter“ weiterverarbeitet werden, mit denen man sehr mächtige Verzauberungen herstellen kann.
+Neue Verzauberungen
 
-Portale: Neben dem Nether-Portalsystem gibt es Bau-Portale (Teleportportale). Bestimmte Blockkombinationen (z.B. Portalrahmen) erlauben Reisen zu anderen Portalen auf der Karte.
+Lightning (I): Bei einem Sturm schlägt bei einem Treffer mit dem Schwert oder einer anderen Waffe automatisch ein Blitz ein.
 
-Trifles (kleine Helfer): Viele Quality-of-Life Features (Vane-Trifles) sind implementiert, z.B.: Geschwindigkeit auf Graswegen, automatisches Ernten (Sichel), simultanes Öffnen benachbarter Türen usw.. Diese brauchst du nicht aktivieren; sie gelten automatisch.
+Rake (I–IV): Mit einer Hacke beim Rechtsklick auf Ackerfläche wird ein größerer Ackerstreifen um dich herum gepflügt (nützlich für schnelles Ackern).
 
-Aktivierung:
+Seeding (I–IV): Mit einer Hacke beim Rechtsklick auf ausgesäten Acker werden umliegende Felder gleichzeitig bestellt (Pflanzen werden gesät).
 
-Alte Schriften finden und dann an einem Werkblock („Enchanter“) ausrüsten.
+Leafchopper (I): Eine Axt mit dieser Verzauberung fällt Bäume schneller, indem sie ganze Baumteile auf einmal abbricht (wie Schneidbrett-Effekt).
 
-Portale bauen (kein Befehl – siehe oben), dann hindurchschreiten zum Reisen.
+Soulbound (I): Verzauberung für alle Items: Das Item bleibt dir beim Tod erhalten (wird nicht ins Inventar des Todes geschickt).
 
-Trifles funktionieren im Hintergrund: z.B. lauf durch Grasweg, es gibt dir den kleinen Speed-Buff.
+Takeoff (I–III): Eine Verzauberung für Elytra: Beim Öffnen der Elytra fliegst du sofort ab (Zusatz-Boost).
 
-Für Rüstungsverzauberungen (wie Dornenrüstung oder Bogen-Aura) braucht man die entsprechenden Ausrüstungsteile (z.B. komplette Sets, Trinket-Rüstung, Karotten-Brille) (nicht aus Quelltext bestätigt).
+Wings (I–IV): Auf Elytra: Beim Schweben (Elytra an) steigst du etwas in die Höhe, wenn du schleichen (Sneak) hältst, oder bekommst einen kleinen Geschwindigkeitsschub.
 
-Beispiel:
-Du findest ein „Ancient Tome of Knowledge“. Setze es in das Verzauberungsgerät ein; so kannst du eine starke Verzauberung wie „Regeneration II“ in ein Item ziehen. Passende Materialien für besondere Verzauberungstabellen sind oft antike Zutat.
+Unbreakable (I): Das ultimative Haltbarkeitsverzauberung: Gegenstand verliert keinerlei Haltbarkeit beim Benutzen.
 
-Serverunterschiede:
+Triforce etc. (Bonus): Einige Dungeons bieten Items wie Antidot (Schutz gegen Gift in Brustplatten) oder Illager-Bane (Schwertzauber gegen Illager).
 
-Diese Systeme gelten überall (Adventure & Bau). Manche Trifles könnten in geschützten Zonen deaktiviert sein.
+Änderung bei Amboss: Die Reparaturkosten sind beschränkt (maximal 39 Level), so dass es nie zu teuer wird.
 
-Tipps:
+Magische Gegenstände
 
-Achte auf erweiterte Zaubertische in Dungeons – dort kannst du seltene Verzauberungen herstellen (mithilfe der alten Schriften).
+Blitzpfeil (Ghasted): Mit einer Verzauberung aufs Armbrust (aus Incendium): Feuerschuss, der beim Aufprall explodiert.
 
-Portale kann man auf Abenteuermissionen oder als Schnellreisetunnel nutzen (Beispiel: im Quest-Hub zu weit entfernten Orten).
+Gravitation (Gravity): Verzauberung für Bogen- oder Armbrustpfeile: zieht Gegner beim Treffer in die Nähe.
 
-FAQ:
+Dreischuss (Tri-Shot): Bogen-VZA, feuert 3 Pfeile gleichzeitig.
 
-F: Wie bekomme ich „Gott-Verzauberungen“?
-A: Sammle alte Schriften in Dungeons und verwandle sie schrittweise zum Buch der Götter (Ancient Tome of the Gods). Damit kannst du Top-Verzauberungen schmieden.
+Durchschuss (Blowthrough): Bogen-VZA, Pfeile durchdringen mehrere Gegner (je Stufe +1 Körper).
 
-F: Was sind „Trifles“?
-A: Das sind kleine Spielverbesserungen (Vane-Trifles) wie Doppeltüren, Erntehilfe, Graswege-Beschleunigung etc., die automatisch aktiviert sind.
+Illager-Bann (IllagersBane): Waffe-VZA, verursacht extra Schaden an Illagern, Hexen und Ravager-Mobs.
+
+Regenbogenbogen: (nicht aktiviert) Eine besondere Bogenglühwand je nach Server.
+
+Transport-Schriftrollen (Portal-Items)
+
+Papyrus-Schriftrolle: Grundmaterial für alle Portal-Schriftrollen.
+
+Portal-Schriftrolle (Heimat): Teleportiert dich zu deinem Bett. Kann bis zu 25-mal benutzt werden.
+
+Portal-Schriftrolle (Unstabil): Teleportiert dich an den Ort, an dem du zuletzt eine Schriftrolle benutzt hast. Perfekt für schnelle Hin- und Her-Reisen.
+
+Portal-Schriftrolle (Spawn): Bringt dich zum Spawnpunkt. /setspawn setzt den Spawn (nur Admins).
+
+Portal-Schriftrolle (Tod): Teleportiert dich an den Ort deines letzten Todes, sofern dieser < 20 Minuten her ist. Nur 2 Nutzungen möglich!
+
+Portal-Schriftrolle (Leuchtfeuer): Lässt sich an einem Leuchtfeuer binden (Shift-Rechtsklick). Danach teleportierst du immer genau zu diesem Leuchtfeuer.
+
+XP-Flaschen: Spezialflaschen, um deine Erfahrung zu speichern. Rechtsklick auf eine leere Flasche füllt sie mit einem Teil deiner XP (teilweise Verlust), die du später erneut entnehmen kannst.
+
+Verzauberungstische und Ambosse
+
+Du findest antike Bücher (Ancient Tome) in vielen Truhen. Diese bilden die Basis für alle speziellen Verzauberungen.
+
+Benutze Amboss und entsprechende Bücher, um neue Verzauberungen auf Ausrüstung zu bringen. Einige Verzauberungen sind inkompatibel (z.B. Ghasted kann nicht mit Mehrfachschuss kombiniert werden).
+
+FAQ: Verzauberungen
+
+Wo finde ich antike Bücher? Sie liegen in Truhen von Dungeons und besonderen Strukturen (z.B. Festungen, Dörfer, Tempel).
+
+Kann ich jede Waffe verzaubern? Nicht alle: Manche Verzauberungen wirken nur auf bestimmte Itemtypen (siehe die obigen Listen).
+
+Gibt es Limitierungen? Einige starke Verzauberungen sind selten und nur schwer zu bekommen (nur in bestimmten Dungeons oder ab Bossen).
+
+Wie bekomme ich den Nordkompass? Du kannst ihn normal craften und ihn zeigt immer Richtung Norden, egal wo in der Welt du bist (in der jeweiligen Dimension!).
