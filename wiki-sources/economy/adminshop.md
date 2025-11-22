@@ -1,34 +1,27 @@
-# AdminShop für Spieler
+# AdminShop
 
-Der **AdminShop** ist ein Laden mit unbegrenztem Vorrat. Für dich als Spieler funktioniert er ähnlich wie ein ChestShop. Der Unterschied: AdminShops liefern immer Nachschub — du kannst Items in der angegebenen Menge sofort kaufen (sofern du genug Moneten hast).
+Der **AdminShop** ist ein [Shop](/wiki/economy/shop) mit unbegrenztem Vorrat. Für dich als Spieler funktioniert er ähnlich wie ein Spieler [Shop](/wiki/economy/shop). Der Unterschied: AdminShops liefern immer Nachschub. Du kannst Items in unbegrenzter Menge kaufen und verkaufen.
 
 ## Ort
 
 Besuche den Adminshop indem du /warp Shop eingibts.
 
 ## Kaufen
-Klicke auf ein AdminShop-Schild.  
-Bei ausreichendem Guthaben erhältst du die angegebenen Items sofort.
+Kaufe indem du auf das Schild Rechtsclickst. Die Zahl **hinter** dem **B** gibt den Kaufpreis an.
 
 
 ## Verkaufen
-Gibst klickst auf das Schild und gibst die Items ab und bekommst sofort Moneten gutgeschrieben.
+Verkaufe indem du auf das Schild Linksclickst. Die Zahl **vor** dem **S** gibt den verkaufspreis an.
 
 ## Tipp
-AdminShops sind oft die schnellste Möglichkeit, an Ressourcen zu kommen ist jedoch recht teuer.  
 
-**Der Adminshop ist sehr teuer und bezahlt nur wenig also Handle mit anderen Spielern wann immer es geht!**
+- **Der Adminshop ist sehr teuer und bezahlt nur wenig also Handle mit anderen Spielern wann immer es geht!**
+
+- **Durch schleichen kannst du sofort einen ganzen Stack kaufen bzw. verkaufen.**
 
 ## Beispiel
-Eine typische Schild-Beschriftung könnte so aussehen:
 
-    [AdminShop] Diamant 64 1000
+![Beispiel Screenshot](/images/examples/adminshop.png "Admishop"){style="max-width:100%;height:auto;display:block;"}
 
-Das bedeutet: Kaufe 64 Diamanten für 1000 Moneten. (Bei einem „S“-Schild wäre es entsprechend ein Verkaufsschild.)
+Das bedeutet: Kaufe 64 Diamanten für 6400 [Moneten](/wiki/economy/moneten). Oder verkaufe 64 Diamanten für 2560
 
-## FAQ
-
-**F: Was passiert, wenn ich mehr Items habe, als das Schild preist?**  
-A: Durch schleichen kannst du sofort einen ganzen Stack kaufen bzw. verkaufen.
-
----

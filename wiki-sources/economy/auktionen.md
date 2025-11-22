@@ -45,7 +45,7 @@ Hole die Erlöse von abgeschlossenen Auktionen und die Gegenstände von abgelauf
   - **Verkauf**:
     Bei einem Verkauf steht die Auktion für eine bestimmte Zeit im Markt und Spieler können die Auktion jederzeit sofort kaufen. Wenn ein Spieler die Auktion kauft, kann er im Bestätigungsmenü die Menge wählen dadurch ändert sich natürlich auch der Gesamtpreis (weniger Menge = niedrigerer Preis).
 
-- Per Klick auf den **Goldbarren** kann die Währung für den Gegenstand umgestellt werden. Unterstützte Währungen sind Moneten, XP und Items.
+- Per Klick auf den **Goldbarren** kann die Währung für den Gegenstand umgestellt werden. Unterstützte Währungen sind [Moneten](/wiki/economy/moneten), XP und Items.
 
 - Per Klick auf die **Glasscheiben** kann der Preis der Auktion angepasst werden. Grüne Scheiben erhöhen den Preis, rote Scheiben verringern ihn. Einzelne Scheibe = ±1, eine 10er-Scheibe = ±10, ein Stack (64) = ±100. Alternativ kann über das untere Schild der Preis direkt eingegeben werden.
 

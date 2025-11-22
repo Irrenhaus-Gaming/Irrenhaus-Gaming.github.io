@@ -1,6 +1,6 @@
 Handel und Shops
 
-Auf dem Server funktioniert der Handel über die Währung Moneten, ChestShops, Auktionen und direkte Zahlungen zwischen Spielern. Spieler können mit dem Befehl /pay <Spieler> <Betrag> Geld überweisen und mit /balance oder /money ihr eigenes Guthaben anzeigen. Nicht alle Items sind frei handelbar (insbesondere Spiel- oder Questgegenstände sind oft gesperrt).
+Auf dem Server funktioniert der Handel über die Währung Moneten, ChestShops, Auktionen und direkte Zahlungen zwischen Spielern. Spieler können mit dem Befehl /pay <Spieler> <Betrag> Geld überweisen und mit /balance oder /money ihr eigenes Guthaben anzeigen. Nicht alle Items sind frei handelbar (insbesondere Elite und Questgegenstände sind oft gesperrt).
 
 Wichtige Befehle:
 

@@ -43,7 +43,7 @@
         "relative-pages": {
             "economy": {
                 "title": "Wirtschaft",
-                "main_page": "economy/wirtschaft_moneten.md",
+                "main_page": "economy/moneten.md",
                 "path": "economy",
                 "pages": [
                     {
@@ -59,16 +59,10 @@
                         "output_filename": "auktionen.html"
                     },
                     {
-                        "file": "handel_shops.md",
-                        "title": "Handel Shops",
-                        "description": "Informationen zu Handel Shops",
-                        "output_filename": "handel_shops.html"
-                    },
-                    {
-                        "file": "shops_adminshop.md",
-                        "title": "Shops",
-                        "description": "Informationen zu Shops",
-                        "output_filename": "shops_adminshop.html"
+                        "file": "moneten.md",
+                        "title": "Moneten",
+                        "description": "Informationen zur Serverwährung",
+                        "output_filename": "moneten.html"
                     }
                 ]
             }
