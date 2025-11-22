@@ -1,8 +1,7 @@
-Inventar und Backpacks
+# Inventar und Rucksäcke
 
-Neben dem Standard-Inventar haben Spieler zusätzliche Slots durch Backpacks. Außerdem wird das Inventar serverübergreifend synchronisiert (Inventar und Endertruhe bleiben beim Wechsel zwischen Lobby, Adventure und Bauwelt gleich).
+Neben dem Standard-Inventar hast du die möglichkeit zusätzliche Slots durch Rucksäcke freizuschalten. 
 
-Backpacks:
 Es gibt drei Rucksack-Typen: Basic (9 Slots), Gold (27 Slots), Diamond (54 Slots). Diese kann man herstellen (Crafting-Rezepte) oder durch spezielle Commands generieren. Befehl /backpack crafting öffnet eine Liste der Crafting-Rezepte für die Rucksäcke. Mit /backpack give <RucksackTyp> [Anzahl] kann ein Rucksack an einen Spieler vergeben werden (für Spieler meist deaktiviert). Um einen Rucksack zu öffnen, führe ihn wie ein Item im Inventar aus (zum Beispiel Rechtsklick auf den Rucksack-Itemstack oder entsprechender Befehl, je nach Einstellung) (nicht bestätigt).
 
 Befehle (je nach Konfiguration):

@@ -1,85 +1,59 @@
-Cosmetics und Ränge
+# Cosmetische Gegenstände und Ränge
 
-Spieler können ihr Aussehen und Titel mit Kosmetika und Rängen (sogenannten „Rang-Tags“) individualisieren. Belohnungen wie Kits oder Währung hängen oft mit bestimmten Rängen zusammen.
+Du kannst dein Aussehen mit Cosmetische Gegenstände und deine Chat erscheinungen Individualisieren. 
 
-Kosmetika:
+## Kosmetische Gegenstände:
 
-Gadgets/Effekte/Hüte/Titel: Über Menüs (z.B. im UltraCosmetics-Menü) kann man sich Haustiere, Partikeleffekte, Hüte und Titel (Chat-Präfixe) kaufen/ausrüsten. Diese kosmetischen Items haben keinen Gameplay-Einfluss.
-
-Kostenträger: Kosmetische Kisten (s.u.) und Ingame-Shops ermöglichen den Erwerb von Kosmetika.
-
-Aktivierung: Im Menüsystem (z.B. /uc menu) werden erworbene Kosmetika angezeigt. Dort wählt man sie aus und „aktiviert“ sie (Einfach auf das Icon klicken). Nur ein Hut bzw. eine Partikel-Animation kann immer aktiv sein.
-
-Durch Kombination kann man z.B. gleichzeitig einen Partikeleffekt und ein Haustier aktiv haben.
-
-Ränge (Tags):
-
-Ränge werden oft durch Rang-Plugins (hier via Permissionsystem) verwaltet. Du bekommst z.B. „Spieler“, „Premium“, „Moderator“ etc.
-
-Dein Rang wird im Chat vor deinem Namen angezeigt und oft mit Farbcode. (Beispiel: [Premium] Max).
-
-Befehle: Keine spezifischen Spielerbefehle – Ränge ändern sich durch Events, Vote-Punkte oder Admin-Einstellungen.
-
-Tipps: Erwirb höhere Ränge durch Voting/Shop oder besondere Aktionen, um besondere Titles und chatfarben zu erhalten.
-
-Beispiel:
-Jemand mit Rang „VIP“ könnte seinen Chatnamen in der Farbe Blau angezeigt bekommen, während „Spieler“ generell Grau ist.
-
-Serverunterschiede:
-
-In der Lobby ist der Anzeigetext meist standardisiert. In Abenteuerwelt kann das Setzen sichtbarer Ränge variieren (je nach Serveransicht).
-
-FAQ:
-
-F: Wie kann ich meinen Rang sehen?
-A: Dein aktueller Rang steht meist vor deinem Namen (z.B. in der TAB-Liste oder im Chat).
-
-F: Kann ich Ränge wechseln?
-A: Ränge ändern sich nur über beauftragte Wege: Voting, Kauf im Shop oder Admin-Upgrade. Nicht selber.
-
-
-# Kosmetische Kisten und Schlüssel
-
-Im Spiel gibt es Kosmetische Kisten (Crates), die zufällige kosmetische Gegenstände freigeben (wie Upgrades, Hüte, Partikel, Pets). Um sie zu öffnen, benötigst du spezielle Schlüssel.
-
-Funktion:
-
-Du erhältst Schlüssel (z.B. durch Kauf, Belohnung oder Befehle).
-
-Mit einem Schlüssel kannst du eine Kiste öffnen, die 1–4 zufällige Kosmetika hervorbringt (z.B. ein Haustier, ein Effekt).
-
-Nach Benutzung des Schlüssels verschwindet dieser (er wird im Inventar verbraucht), und du erhältst dein zufälliges Belohnungs-Kosmetik.
-
-Wichtige Befehle:
-
+Über das Menü
 ```
-/uc menu                          // Öffnet das Kosmetik-Menü, um Kisten zu öffnen.
+/cosmetics
 ```
+ kannst du dir Haustiere, Partikeleffekte, Hüte und vieles mehr ausrüsten. Diese haben keinen Gameplay-Einfluss müssen jedoch vorher freigeschaltet werden..
 
-(Das Beispiel verwendet UltraCosmetics-Befehle; auf deinem Server könnte es abweichen.)
+ ### Freischalten:
 
-Beispiel:
-Ein Admin gibt dir mit /uc give key 1 <DeinName> einen Schlüssel. Drück dann im Spiel die Taste V, um das Kosmetik-Menü zu öffnen, und klicke dort auf die Kisten-Sektion. Klicke auf eine Kiste, um sie mit deinem Schlüssel zu öffnen – du bekommst zufällige Kosmetika dazu.
+ Zum freischalten der Kosmetischen gegenstände gibt es ein Kistensystem , die zufällige kosmetische Gegenstände freischalten. Um sie zu öffnen, benötigst du spezielle Schlüssel welche du dir im Menü kaufen kannst (Preis 1000 [Moneten](/wiki/economy/moneten)).
 
-GUI/Ingame-Interaktionen:
-Im Kosmetik-Menü (/uc menu) siehst du ein Feld mit Kisten. Ein Klick darauf öffnet die nächste verfügbare Kiste (Schlüssel vorausgesetzt). Die Ergebnisse erscheinen in der Spielwelt (eine kleine Plattform mit Kisten, die du anklickst, um die Items herauszunehmen). In deinem Inventar erscheinen die erhaltenen kosmetischen Items, die du dann ausrüsten kannst.
+ ![Beispiel Screenshot](/images/examples/cosmetics_unlock.PNG "Cosmetische Gegenstände freischalten"){style="max-width:100%;height:auto;display:block;"}
 
-Serverunterschiede:
+ Diese kannst du dann durch click öffnen und kosmetische gegenstände freischalten.
 
-Kisten können personalisiert sein (z.B. „Gelbe Kiste“ vs. „Glitzernde Kiste“). Prüfe die Namen im Menu.
+  ![Beispiel Screenshot](/images/examples/cosmetics_chests.png "Cosmetische Gegenstände freischalten"){style="max-width:100%;height:auto;display:block;"}
 
-Manchmal kann man eine Kiste nur in bestimmten Gebieten öffnen (z.B. in Safe-Zonen).
 
-Tipps / Best Practices:
+## Ränge (Chat farben):
 
-Spare Schlüssel für Kisten mit höherer Chance auf seltene Belohnungen (falls bekannt, nicht bestätigt).
+Ränge kannst du mit hilfe des 
+```
+/ranks 
+```
+befehls freischalten. Diese kosten 10000 [Moneten](/wiki/economy/moneten) und 10 Level pro rang. Das bedeutet der 1. Rang kostet 10000 Moneten, der zweite 20000 usw.
 
-Kombiniere mit einem Kosmetik-Event: Öffne viele Kisten während eines Events, um besondere Belohnungen zu ergattern.
+![Beispiel Screenshot](/images/examples/rank.PNG "Rang verbessern"){style="max-width:100%;height:auto;display:block;"}
 
-FAQ:
+Dein Rang wird im Chat mit einem Farbcode angezeigt.
 
-F: Was mache ich mit den Kosmetika, die ich erhalte?
-A: Gehe im Kosmetik-Menü (/uc menu) in die jeweilige Kategorie (z.B. Partikel) und wähle es aus, um es anzulegen.
+Die folgenden Ränge existieren:
 
-F: Kann ich die Items später wiederholen?
-A: Einmal erhaltene Kosmetika bleiben in deinem Account; Du kannst sie zu jeder Zeit aktivieren/deaktivieren.
+| Rang  | Kosten (Moneten) | Kosten (Level) | Farbe  | 
+|---|---|---|---|
+| Standard  | 0 | 0|   <div style="background:#555555; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 1  | 10000 | 10|   <div style="background:#fefe3f; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 2  | 20000 | 20|   <div style="background:#fe3f3f; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 3 | 30000 | 30|   <div style="background:#3ffe3f; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 4  | 40000 | 40|  <div style="background:#3f3ffe; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 5 | 50000 | 50|  <div style="background:#3ffefe; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 6 | 60000 | 60|  <div style="background:#be00be; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 7 | 70000 | 70|  <div style="background:#00bebe; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 8 | 80000 | 80|  <div style="background:#00be00; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Rang 9 | 90000 | 90|  <div style="background:#D9A334; height:12px; width:80px; border:1px solid #ccc;"></div> |
+| Veteran | 100000 | 100|  <div style="background:#fe3ffe; height:12px; width:80px; border:1px solid #ccc;"></div> |
+
+**Spezifische höhere Ränge können durch besondere Aktionen sowie für besondere Mitglieder der Community vergeben werden also zeig dich immer von der besten Seite!**
+
+
+
+# FAQ:
+
+**F**: Kann ich die Kosmetischen items handeln?  
+**A**: Nein dies ist nicht möglich
