@@ -41,10 +41,10 @@
             }
         ],
         "relative-pages": {
-            "economy": {
+            "wirtschaft": {
                 "title": "Wirtschaft",
                 "main_page": "economy/moneten.md",
-                "path": "economy",
+                "path": "wirtschaft",
                 "pages": [
                     {
                         "file": "adminshop.md",
@@ -66,10 +66,10 @@
                     }
                 ]
             },
-            "functions": {
+            "funktionen": {
                 "title": "Funktionen",
                 "main_page": "sonstiges/inhaltsverzeichnis.md",
-                "path": "functions",
+                "path": "funktionen",
                 "pages": [
                     {
                         "file": "cosmetics_ranks.md",
