@@ -14,7 +14,7 @@ Du kannst dein Aussehen mit Cosmetische Gegenstände und deine Chat erscheinunge
 
  Zum freischalten der Kosmetischen gegenstände gibt es ein Kistensystem , die zufällige kosmetische Gegenstände freischalten. Um sie zu öffnen, benötigst du spezielle Schlüssel welche du dir im Menü kaufen kannst (Preis 1000 [Moneten](/wiki/economy/moneten)).
 
- ![Beispiel Screenshot](/images/examples/cosmetics_unlock.PNG "Cosmetische Gegenstände freischalten"){style="max-width:100%;height:auto;display:block;"}
+ ![Beispiel Screenshot](/images/examples/cosmetics_unlock.png "Cosmetische Gegenstände freischalten"){style="max-width:100%;height:auto;display:block;"}
 
  Diese kannst du dann durch click öffnen und kosmetische gegenstände freischalten.
 
@@ -29,7 +29,7 @@ Ränge kannst du mit hilfe des
 ```
 befehls freischalten. Diese kosten 10000 [Moneten](/wiki/economy/moneten) und 10 Level pro rang. Das bedeutet der 1. Rang kostet 10000 Moneten, der zweite 20000 usw.
 
-![Beispiel Screenshot](/images/examples/rank.PNG "Rang verbessern"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/rank.png "Rang verbessern"){style="max-width:100%;height:auto;display:block;"}
 
 Dein Rang wird im Chat mit einem Farbcode angezeigt.
 

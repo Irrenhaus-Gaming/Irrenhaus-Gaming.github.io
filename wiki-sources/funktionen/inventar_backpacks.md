@@ -8,11 +8,11 @@ Neben dem Standard-Inventar hast du die möglichkeit zusätzliche Slots durch Ru
 Es gibt drei Rucksack-Typen: 
 
 - Basic (9 Slots)
- ![Crafting Screenshot](/images/examples/basic_backpack.PNG "Basic Rucksack craften"){style="max-width:100%;height:auto;display:block;"}
+ ![Crafting Screenshot](/images/examples/basic_backpack.png "Basic Rucksack craften"){style="max-width:100%;height:auto;display:block;"}
 - Gold (27 Slots)
- ![Crafting Screenshot](/images/examples/gold_backpack.PNG "Gold Rucksack craften"){style="max-width:100%;height:auto;display:block;"}
+ ![Crafting Screenshot](/images/examples/gold_backpack.png "Gold Rucksack craften"){style="max-width:100%;height:auto;display:block;"}
 - Diamant (54 Slots).
- ![Crafting Screenshot](/images/examples/diamond_backpack.PNG "Diamant Rucksack craften"){style="max-width:100%;height:auto;display:block;"} 
+ ![Crafting Screenshot](/images/examples/diamond_backpack.png "Diamant Rucksack craften"){style="max-width:100%;height:auto;display:block;"} 
 
 Diese kannst du einfach in einer Werkbank herstellen.
 

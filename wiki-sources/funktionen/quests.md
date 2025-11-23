@@ -10,38 +10,38 @@ Du öffnest das Questmenü mit
 /quests
 ```
 
-![Beispiel Screenshot](/images/examples/quest_menu.PNG "Quest Menü"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_menu.png "Quest Menü"){style="max-width:100%;height:auto;display:block;"}
 
 ## Kategorien
 
 Quests sind in verschiedene Kategorien aufgeteilt. Hier am Beispiel der Landwirschaftskategorie gezeigt.
 
-![Beispiel Screenshot](/images/examples/quest_select.PNG "Quest Kategorien"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_select.png "Quest Kategorien"){style="max-width:100%;height:auto;display:block;"}
 
 Grüne Wolle markiert bereits abgeschlossene quests wohingegen Graue Wolle noch nicht freigeschaltete Quests anzeigen.
 
 ## Quests Annehmen
 
 Jede Quest hat ein klares Ziel (z.B. „Ernte 50 Kartoffeln“) und eine Belohnung. Zum Annehmen einer quest kannst du diese einfach mit Linksclick auswählen.
-![Beispiel Screenshot](/images/examples/quest_start.PNG "Quest Annehmen"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_start.png "Quest Annehmen"){style="max-width:100%;height:auto;display:block;"}
 
 ## Quest Status
 
 Den status der quest kannst du sehen indem du mit der Maus über das entsprechende Symbol hoverst.
 
-![Beispiel Screenshot](/images/examples/quest_status.PNG "Quest Status"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_status.png "Quest Status"){style="max-width:100%;height:auto;display:block;"}
 
 ## Quest Limit
 
 Du kannst maximal 4 quests gleichzeitig aktiv haben.
 
-![Beispiel Screenshot](/images/examples/quest_limit.PNG "Quest Limit"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_limit.png "Quest Limit"){style="max-width:100%;height:auto;display:block;"}
 
 ## Quest Abschließen
 
 Wenn du die quest Abschließt bekommst du eine Meldung im Chat und die Belohnung:
 
-![Beispiel Screenshot](/images/examples/quest_finish.PNG "Quest Abschließen"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_finish.png "Quest Abschließen"){style="max-width:100%;height:auto;display:block;"}
 
 ## Quest Schwierigkeit
 
@@ -92,9 +92,9 @@ Zusätzlich zu den normalen quests gibt es noch Quests der Abenteuergilde. Diese
 
 Der questgeber befindet sich Links in dem Haus direkt geradeaus vom Warp.
 
-![Beispiel Screenshot](/images/examples/quest_adventureguild_hub.PNG "Elite Quests Annehmen"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_adventureguild_hub.png "Elite Quests Annehmen"){style="max-width:100%;height:auto;display:block;"}
 
-![Beispiel Screenshot](/images/examples/quest_adventureguild.PNG "Elite Quests Geber"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/quest_adventureguild.png "Elite Quests Geber"){style="max-width:100%;height:auto;display:block;"}
 
 Diese quests erfordern dass du [Elite Bosse](/wiki/kampf/elites) besiegst und geben dir Belohnungen für deine Aktuelle Progression.
 
@@ -102,8 +102,8 @@ Deine angenommenen quests kannst du im Elite menü finden.
 
 /em
 
-![Beispiel Screenshot](/images/examples/elitemobs_journal.PNG "Elite Quests Geber"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/elitemobs_journal.png "Elite Quests Geber"){style="max-width:100%;height:auto;display:block;"}
 
 Indem du auf den Quest Journal Text klickst gelangst du zur übersicht und kannst die gegner direkt verfolgen.
 
-![Beispiel Screenshot](/images/examples/elitemobs_quests.PNG "Elite Quests Geber"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/elitemobs_quests.png "Elite Quests Geber"){style="max-width:100%;height:auto;display:block;"}

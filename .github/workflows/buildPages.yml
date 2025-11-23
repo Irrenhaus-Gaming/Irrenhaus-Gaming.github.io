@@ -42,7 +42,7 @@ jobs:
         run: |
           python page-generation/generateWiki.py
       
-      - name: Generate portfolio details HTML page
+      - name: Generate main pages
         run: |
           python page-generation/generatePages.py
 

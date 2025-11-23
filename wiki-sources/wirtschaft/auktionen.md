@@ -29,7 +29,7 @@ Hole die Erlöse von abgeschlossenen Auktionen und die Gegenstände von abgelauf
 /ah auction
 ```
 
-![Beispiel Screenshot](/images/examples/auction.PNG "Auktion Erstellen"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/auction.png "Auktion Erstellen"){style="max-width:100%;height:auto;display:block;"}
 
 ### Interface Erklärung:
 
@@ -62,7 +62,7 @@ Wenn niemand den Artikel gekauft hat und die Zeit abgelaufen ist, erscheint der 
 
 Nach dem Anlegen einer Auktion erscheint eine Bestätigung im Chat. Außerdem wird ein Post im Discord [Auktionshaus Chat](https://discord.com/channels/1157772945784066088/1318892133041705022) erstellt. Halte immer ein Auge auf neue Auktionen!
 
-![Beispiel Screenshot](/images/examples/discord_ah_anouncement.PNG "Discord Post"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/discord_ah_anouncement.png "Discord Post"){style="max-width:100%;height:auto;display:block;"}
 
 ## Tipps
 
