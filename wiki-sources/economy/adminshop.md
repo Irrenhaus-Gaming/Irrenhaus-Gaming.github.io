@@ -21,7 +21,7 @@ Verkaufe indem du auf das Schild Linksclickst. Die Zahl **vor** dem **S** gibt d
 
 ## Beispiel
 
-![Beispiel Screenshot](/images/examples/adminshop.png "Admishop"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](/images/examples/adminshop.PNG "Admishop"){style="max-width:100%;height:auto;display:block;"}
 
 Das bedeutet: Kaufe 64 Diamanten für 6400 [Moneten](/wiki/economy/moneten). Oder verkaufe 64 Diamanten für 2560
 

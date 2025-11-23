@@ -65,6 +65,37 @@
                         "output_filename": "moneten.html"
                     }
                 ]
+            },
+            "functions": {
+                "title": "Funktionen",
+                "main_page": "sonstiges/inhaltsverzeichnis.md",
+                "path": "functions",
+                "pages": [
+                    {
+                        "file": "cosmetics_ranks.md",
+                        "title": "Cosmetics & Ränge",
+                        "description": "Informationen zu Cosmetics und Rängen",
+                        "output_filename": "cosmetics_ranks.html"
+                    },
+                    {
+                        "file": "inventar_backpacks.md",
+                        "title": "Inventar & Backpacks",
+                        "description": "Informationen zu Inventar und Backpacks",
+                        "output_filename": "inventar_backpacks.html"
+                    },
+                    {
+                        "file": "mining.md",
+                        "title": "Mining",
+                        "description": "Informationen zum Mining",
+                        "output_filename": "mining.html"
+                    },
+                    {
+                        "file": "quests.md",
+                        "title": "Quests",
+                        "description": "Informationen zu Quests",
+                        "output_filename": "quests.html"
+                    }
+                ]
             }
         }
     }
