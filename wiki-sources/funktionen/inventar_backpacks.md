@@ -2,19 +2,14 @@
 
 Neben dem Standard-Inventar hast du die möglichkeit zusätzliche Slots durch Rucksäcke freizuschalten. 
 
-Es gibt drei Rucksack-Typen: Basic (9 Slots), Gold (27 Slots), Diamond (54 Slots). Diese kann man herstellen (Crafting-Rezepte) oder durch spezielle Commands generieren. Befehl /backpack crafting öffnet eine Liste der Crafting-Rezepte für die Rucksäcke. Mit /backpack give <RucksackTyp> [Anzahl] kann ein Rucksack an einen Spieler vergeben werden (für Spieler meist deaktiviert). Um einen Rucksack zu öffnen, führe ihn wie ein Item im Inventar aus (zum Beispiel Rechtsklick auf den Rucksack-Itemstack oder entsprechender Befehl, je nach Einstellung) (nicht bestätigt).
+Es gibt drei Rucksack-Typen: Basic (9 Slots), Gold (27 Slots), Diamond (54 Slots). 
 
-Befehle (je nach Konfiguration):
-
+## Crafting
+Der befehl 
 ```
-/backpack crafting  // Zeigt die Rezepte für Rucksäcke an.
-/backpack <Typ>     // Öffnet einen Rucksack (sofern bereits im Inventar).
+/backpack crafting
 ```
-
-(Hinweis: Die tatsächlichen Befehle können je nach Server-Konfiguration anders lauten.)
-
-Beispiel:
-Crafting-Menü mit /backpack crafting anzeigen und Rucksack-Rezepte sehen. Dann z.B. /backpack give gold (Admin) oder selbst craften.
+ öffnet eine Liste der Crafting-Rezepte für die Rucksäcke. Um einen Rucksack zu öffnen, ziehe ihn in deine Leiste und Rechtsklicke wenn du diesen in der Hand hältst. Beim ersten öffnen kann dies einige Sekunden dauern.
 
 Inventarverwaltung:
 
