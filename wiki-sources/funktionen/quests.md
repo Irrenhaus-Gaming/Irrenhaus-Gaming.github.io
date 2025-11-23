@@ -1,6 +1,9 @@
-Quest-Übersicht und Kategorien
+# Quest-Übersicht und Kategorien
 
-Quests auf dem Server sind in verschiedene Themenbereiche eingeteilt und bieten Belohnungen in Moneten. Zu den Kategorien gehören z.B. Aktivitäts-Quests (Tieraufgaben), Sammel-Quests (Rohstoffe sammeln), Jagd-Quests (Monster töten), Verzauberungs-Quests usw. Jede Quest hat ein klares Ziel (z.B. „Schere 15 Schafe“), eine Belohnung und kann einmalig absolviert werden.
+Zusätzlich zu normalen möglichkeiten das Spiel zu spielen hat der Server auch Quests. Diese sind interaktive wege um an [Moneten](/wiki/economy/moneten) zu kommen.
+
+## Kategorien
+Quests sind in verschiedene Kategorien aufgeteilt. Jede Quest hat ein klares Ziel (z.B. „Schere 15 Schafe“), eine Belohnung und kann einmalig absolviert werden.
 
 Wichtige Befehle:
 
