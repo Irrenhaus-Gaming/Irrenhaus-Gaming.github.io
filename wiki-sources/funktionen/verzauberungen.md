@@ -1,71 +1,49 @@
-Verzauberungen und magische Items
+# Verzauberungen und magische Items
 
-Neben den klassischen Verzauberungen gibt es viele neue, die besondere Effekte auf Werkzeug, Rüstung oder sogar spezielle Gegenstände bringen. Viele stammen aus neuen Abenteuern.
+Neben den klassischen Verzauberungen gibt es viele neue, die besondere Effekte auf Werkzeug, Rüstung oder sogar spezielle Gegenstände bringen. Diese können in zwei kategorien aufgeteilt werden. Craftbare verzauberungen und welche die von [Elites](/wiki/kampf/enchantments_und_loot) droppen. Im folgenden sind **nur** die craftbaren gelistet.
 
-Neue Verzauberungen
+# Neue Verzauberungen
 
-Lightning (I): Bei einem Sturm schlägt bei einem Treffer mit dem Schwert oder einer anderen Waffe automatisch ein Blitz ein.
+Zum crafting werden die folgenden neuen Resourcen benötigt.
 
-Rake (I–IV): Mit einer Hacke beim Rechtsklick auf Ackerfläche wird ein größerer Ackerstreifen um dich herum gepflügt (nützlich für schnelles Ackern).
+| Material  | Quelle | Beispiel  | 
+|---|---|---|
+|Ancient Tome|Loot in kisten|![Beispiel Screenshot](/images/examples/enchant_ancient_tome.png "Ancient Tome"){style="max-width:100%;height:auto;display:block;"}|
+|Ancient Tome of knowledge|Seltener Loot in kisten oder crafting|![Beispiel Screenshot](/images/examples/enchant_ancient_tome_of_knowledge.png "Ancient Tome of Knowledge"){style="max-width:100%;height:auto;display:block;"}|
+|Ancient Tome of the Gods|Sehr seltener Loot in kisten oder crafting|![Beispiel Screenshot](/images/examples/enchant_ancient_tome_of_the_gods.png "Ancient Tome of Knowledge"){style="max-width:100%;height:auto;display:block;"}|
 
-Seeding (I–IV): Mit einer Hacke beim Rechtsklick auf ausgesäten Acker werden umliegende Felder gleichzeitig bestellt (Pflanzen werden gesät).
+Diese findest du vor allem in der Abenteuerwelt.
 
-Leafchopper (I): Eine Axt mit dieser Verzauberung fällt Bäume schneller, indem sie ganze Baumteile auf einmal abbricht (wie Schneidbrett-Effekt).
+# Verzauberungsliste
 
-Soulbound (I): Verzauberung für alle Items: Das Item bleibt dir beim Tod erhalten (wird nicht ins Inventar des Todes geschickt).
+Diese verzauberungen könenn entweder selten gelootet oder gecraftet werden.
 
-Takeoff (I–III): Eine Verzauberung für Elytra: Beim Öffnen der Elytra fliegst du sofort ab (Zusatz-Boost).
+| Verzauberung  | Effekt | Gegenstand | Stufe(n) | Rezept  | 
+|---|---|---|---|---|
+|Greifhaken|Zieh dich an das Ziel deiner Angel heran| Angel|I - III|![Beispiel Screenshot](/images/examples/enchant_grappling_hook.png "Greifhaken Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Saat|Rechts click auf ein existierendes bepflanztes Feld füllt nahe Felder mit der selben Pflanze| Hacke|I-IV|![Beispiel Screenshot](/images/examples/enchant_seeding.png "Saat Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Harke|Ähnlich zu Saat aber zum erstellen von Feldern| Hacke|I-IV|![Beispiel Screenshot](/images/examples/enchant_rake.png "Harke Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Abflug|Bekomme einen boost beim Abheben direkt vom Boden.| Elytra|I-III|![Beispiel Screenshot](/images/examples/enchant_takeoff.png "Abflug Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Flügel|Beschleunige mit Umschalt (kleine version von Engel)| Elytra|I - IV|![Beispiel Screenshot](/images/examples/enchant_wings.PNG "Flügel Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Engel|Beschleunige mit Umschalt (große version von Flügel)| Elytra|I - V|![Beispiel Screenshot](/images/examples/enchant_angel.png "Engel Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Dickschädel|Verhindert Schaden beim fliegen in eine Wand | Elytra |-|![Beispiel Screenshot](/images/examples/enchant_hell_bent.png "Dickschädel Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Unzerbrechlich|Macht den Genstand Unzerbrechlich |-|-|![Beispiel Screenshot](/images/examples/enchant_unbreakable.PNG "Unzerbrechlich Rezept"){style="max-width:100%;height:auto;display:block;"}|
+|Seelengebunden|Seelengebundene Items bleiben beim Tod im Inventar. Das Buch muss ein Fluch der Bindung sein.|-|-|![Beispiel Screenshot](/images/examples/enchant_soulbound.PNG "Seelengebunden Rezept"){style="max-width:100%;height:auto;display:block;"}|
 
-Wings (I–IV): Auf Elytra: Beim Schweben (Elytra an) steigst du etwas in die Höhe, wenn du schleichen (Sneak) hältst, oder bekommst einen kleinen Geschwindigkeitsschub.
+Die folgenden verzauberungen können nur in der Abenteuerwelt beim erkunden gefunden und auch nur in der Abenteuerwelt genutzt werden.
 
-Unbreakable (I): Das ultimative Haltbarkeitsverzauberung: Gegenstand verliert keinerlei Haltbarkeit beim Benutzen.
-
-Triforce etc. (Bonus): Einige Dungeons bieten Items wie Antidot (Schutz gegen Gift in Brustplatten) oder Illager-Bane (Schwertzauber gegen Illager).
-
-Änderung bei Amboss: Die Reparaturkosten sind beschränkt (maximal 39 Level), so dass es nie zu teuer wird.
-
-Magische Gegenstände
-
-Blitzpfeil (Ghasted): Mit einer Verzauberung aufs Armbrust (aus Incendium): Feuerschuss, der beim Aufprall explodiert.
-
-Gravitation (Gravity): Verzauberung für Bogen- oder Armbrustpfeile: zieht Gegner beim Treffer in die Nähe.
-
-Dreischuss (Tri-Shot): Bogen-VZA, feuert 3 Pfeile gleichzeitig.
-
-Durchschuss (Blowthrough): Bogen-VZA, Pfeile durchdringen mehrere Gegner (je Stufe +1 Körper).
-
-Illager-Bann (IllagersBane): Waffe-VZA, verursacht extra Schaden an Illagern, Hexen und Ravager-Mobs.
-
-Regenbogenbogen: (nicht aktiviert) Eine besondere Bogenglühwand je nach Server.
-
-Transport-Schriftrollen (Portal-Items)
-
-Papyrus-Schriftrolle: Grundmaterial für alle Portal-Schriftrollen.
-
-Portal-Schriftrolle (Heimat): Teleportiert dich zu deinem Bett. Kann bis zu 25-mal benutzt werden.
-
-Portal-Schriftrolle (Unstabil): Teleportiert dich an den Ort, an dem du zuletzt eine Schriftrolle benutzt hast. Perfekt für schnelle Hin- und Her-Reisen.
-
-Portal-Schriftrolle (Spawn): Bringt dich zum Spawnpunkt. /setspawn setzt den Spawn (nur Admins).
-
-Portal-Schriftrolle (Tod): Teleportiert dich an den Ort deines letzten Todes, sofern dieser < 20 Minuten her ist. Nur 2 Nutzungen möglich!
-
-Portal-Schriftrolle (Leuchtfeuer): Lässt sich an einem Leuchtfeuer binden (Shift-Rechtsklick). Danach teleportierst du immer genau zu diesem Leuchtfeuer.
-
-XP-Flaschen: Spezialflaschen, um deine Erfahrung zu speichern. Rechtsklick auf eine leere Flasche füllt sie mit einem Teil deiner XP (teilweise Verlust), die du später erneut entnehmen kannst.
-
-Verzauberungstische und Ambosse
-
-Du findest antike Bücher (Ancient Tome) in vielen Truhen. Diese bilden die Basis für alle speziellen Verzauberungen.
-
-Benutze Amboss und entsprechende Bücher, um neue Verzauberungen auf Ausrüstung zu bringen. Einige Verzauberungen sind inkompatibel (z.B. Ghasted kann nicht mit Mehrfachschuss kombiniert werden).
-
-FAQ: Verzauberungen
-
-Wo finde ich antike Bücher? Sie liegen in Truhen von Dungeons und besonderen Strukturen (z.B. Festungen, Dörfer, Tempel).
-
-Kann ich jede Waffe verzaubern? Nicht alle: Manche Verzauberungen wirken nur auf bestimmte Itemtypen (siehe die obigen Listen).
-
-Gibt es Limitierungen? Einige starke Verzauberungen sind selten und nur schwer zu bekommen (nur in bestimmten Dungeons oder ab Bossen).
-
-Wie bekomme ich den Nordkompass? Du kannst ihn normal craften und ihn zeigt immer Richtung Norden, egal wo in der Welt du bist (in der jeweiligen Dimension!).
+| Verzauberung  | Effekt | Gegenstand | Inkompatibel mit| Stufe(n) | 
+|---|---|---|---|---|
+|Antidote|Gift und Wither schaden wird stattdessen der Brustplatte zugefügt|Brustplatte|Alle arten von Schutz|-|
+|Blowthrough|Durchschuss für Bögen|Bogen|Unendlichkeit, Tri-shot|I-IV|
+|Curse of Conductivity|Chance im Sturm vom Blitz getroffen zu werden|Metallgegenstände|-|-|
+|Ghasted|Pfeile verwandeln sich in Feuerbälle|Armbrust|Mehrfachschuss, Durchdringung, Might |I-III|
+|Gravity|Pfeile ziehen gegner heran|Armbrust|-|I-III|
+|Illager's Bane|Erhöht schaden gegen Illager, Verwüster, Plagegeister und Hexen|Schwert, Axt, Dreizack, Hammer|Schadensverzauberungen wie Schärfe|I-V|
+|Might|Stärke Verzauberung für Armbrüste|Armbrust|Gravity, Ghasted, Durchdringung, Mehrfachschuss|I-V|
+|Spiteful|Erhöht den schaden bei niedrigem Leben|Schwert, Axt, Dreizack, Hammer|-|I-III|
+|Tri-shot|Mehrfachschuss für Bögen|Bogen|Unendlichkeit, Durchdringung, Mehrfachschuss|-|
+|Traveler|Erhöhte Geschwindigkeit und Schritthöhe beim Sprinten. (Verbraucht Haltbarkeit)|Schuhe|Seelenläufer|I-III|
+|Outreach|Erhöht Interaktionsreichweite|Brustpanzer|-|I-IV|
+|Wax Wings|Entfernt haltbarkeitsschaden von langsamen gleiten aber erhöhrt Feuerwerk haltbarkeitsschaden.|Elytra|Haltbarkeit|-|
+|Wither Coated| Fügt beim Treffer Wither schaden zu|Schwert, Axt, Dreizack, Hammer|Verbrennung|I-III|

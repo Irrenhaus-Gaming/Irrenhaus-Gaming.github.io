@@ -94,6 +94,12 @@
                         "title": "Quests",
                         "description": "Informationen zu Quests",
                         "output_filename": "quests.html"
+                    },
+                    {
+                        "file": "verzauberungen.md",
+                        "title": "Verzauberungen",
+                        "description": "Informationen zu Verzauberungen",
+                        "output_filename": "verzauberungen.html"
                     }
                 ]
             }
