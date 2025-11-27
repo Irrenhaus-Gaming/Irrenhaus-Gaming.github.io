@@ -99,9 +99,9 @@ Der questgeber befindet sich Links in dem Haus direkt geradeaus vom Warp.
 Diese quests erfordern dass du [Elite Bosse](/wiki/kampf/elites) besiegst und geben dir Belohnungen für deine Aktuelle Progression.
 
 Deine angenommenen quests kannst du im Elite menü finden.
-
+```
 /em
-
+```
 ![Beispiel Screenshot](/images/examples/elitemobs_journal.png "Elite Quests Geber"){style="max-width:100%;height:auto;display:block;"}
 
 Indem du auf den Quest Journal Text klickst gelangst du zur übersicht und kannst die gegner direkt verfolgen.
