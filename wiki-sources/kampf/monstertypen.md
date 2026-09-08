@@ -1,37 +1,51 @@
-Monstertypen
+# Monster & Skalierung
 
-Die meisten Monster haben normale Minecraft-Statistiken, aber es gibt nun zusätzliche Varianten und Skalierungen durch das Skills- und Elite-System.
+Die meisten Kreaturen in der Abenteuerwelt sind ganz normale Minecraft-Mobs – aber sie sind **nicht mehr statisch**. Monster werden mit dir zusammen stärker, und ein Teil von ihnen erscheint als gefährliche [Elite-Mobs](elite-mobs.md).
 
-Gegner-Skalierung
+## Mob-Skalierung
 
-Stärkere Monster: Monster werden mit deinen Skill-Leveln härter. Ein hoher Kampf-Level macht die Umgebung gefährlicher – Bösewichte haben dann mehr Leben oder Schaden. (AuraMobs sorgen dafür, dass ein mob stärker wird, wenn du stärker bist, nicht genau bestätigt.)
+Monster passen ihr Level an die Spieler in der Umgebung an. Je stärker deine [Skills](skills.md), desto härter werden die Gegner rund um dich.
 
-Legendäre Köpfe: Einige Monster können mit farbigen Totenköpfen erscheinen (z.B. rote Creeper oder schwarze Skelette), die sie besonders stark oder besonders mächtig machen. Töten sie solche Varianten, gibt es bessere Belohnungen.
+- Das Mob-Level entspricht dem **durchschnittlichen Level der Spieler im Umkreis von 128 Blöcken**.
+- Das maximale Mob-Level ist **100**.
+- Mit steigendem Level bekommt ein Monster **mehr Leben und macht mehr Schaden** – seine Grundwerte bleiben sonst gleich.
+- Für das Töten skalierter Monster gibt es **mehr Skill-XP** als für unskalierte.
 
-Elite-Varianten
+Über einem skalierten Monster (in ca. 5 Blöcken Reichweite) siehst du ein Namensschild in der Form:
 
-Elite-Mobs: Wie bereits beschrieben, gibt es Elite-Versionen von Standardmonstern: schneller, mehr Leben, Spezialfähigkeiten. Sie erscheinen zufällig oder in bestimmten Dungeons.
+```
+Lvl 12 | Zombie | ❤ 34/34
+```
 
-Boss-Mobs: Sehr seltene Gegner mit komplexen Angriffsmustern (z.B. ein großer schwebender Boss im Nether aus dem Incendium-Datapack). Sie sind in der Boss-Übersicht im Elite-Menü aufgeführt.
+### Wie stark werden Monster?
 
-Natürliche Monster
+Leben und Schaden steigen linear mit dem Level. Als Faustregel:
 
-Normale Mobs: Alle klassischen Kreaturen (Skelett, Zombie, Spinne, Creeper, Enderman, etc.) verhalten sich wie gewohnt.
+| Mob-Level | Leben & Schaden (Faktor) |
+|-----------|--------------------------|
+| 1         | ×1,0 (normal)            |
+| 25        | ×~2,0                    |
+| 50        | ×~3,0                    |
+| 100 (max) | ×~5,0                    |
 
-Veränderte Biome: In neuen Biomen (z.B. Vulkan- oder Wüsten-Oasen-Biome) gibt es spezielle Zombies, Endermen oder Spinnen, passend zum Thema (nicht bestätigt).
+!!! tip "Die Welt wächst mit dir"
+    Wenn du dich stark fühlst, wird die Umgebung automatisch gefährlicher. Reist du mit einer Gruppe, zählt das durchschnittliche Level – ein starker Mitspieler zieht die Gegner für alle mit hoch.
 
-Vane- und Datapack-Features
+## Elite-Varianten
 
-Creeper-Schutz: Explosionsschäden von Creepern werden kurz nach der Explosion automatisch repariert (Zerstörung wird rückgängig gemacht).
+Ein kleiner Teil natürlich spawnender Monster (rund **5 %**) erscheint als **Elite-Mob**: deutlich stärker, mit Spezialfähigkeiten und besserer Beute. Alles dazu findest du auf der Seite [Elite-Mobs & Bosse](elite-mobs.md).
 
-Piglins und Barter: Im Nether bekommen Piglins in bestimmten Biomen einzigartige Handelsangebote (z.B. Tauschen neuer Items gegen Goldbarren).
+## Normale Monster
 
-Neue Kreaturen: In Incendium gibt es Giftwürmer (kleine Spinnentiere) und ruhelose Seelen (Geister), die nur im Nether vorkommen.
+Alle klassischen Kreaturen (Zombie, Skelett, Spinne, Creeper, Enderman …) verhalten sich grundsätzlich wie gewohnt und spawnen ab einer bestimmten Dunkelheit. Neue Biome und Nether-Bereiche bringen zusätzliche, thematisch passende Gegner mit – mehr dazu unter [Welt & Terrain](welt.md).
 
-FAQ: Monstertypen
+## Häufige Fragen
 
-Wo finde ich stärkere Monster? Am ehesten in tieferen Dungeons und neuen Nether-Strukturen. In Abenteuerwelt allgemein sind stärkere Mobs wahrscheinlicher, je höher deine Ausrüstung ist.
+**Wo finde ich stärkere Monster?**
+Überall dort, wo starke Spieler unterwegs sind, sowie in [Dungeons](dungeons.md) und an [Strukturen](strukturen.md). Je besser deine eigene Ausrüstung und deine Skills, desto stärker die Gegner.
 
-Kann ich normale Monster deaktivieren? Nein, reguläre Monster spawnen überall ab einer bestimmten Lichtstufe. Ausschalten (Turniermodus) gibt es nicht.
+**Kann ich Monster ausschalten?**
+Nein. Reguläre Monster spawnen normal weiter. Du kannst allerdings über den Guild-Rang **Commoner** die Elite-Spawns für dich deaktivieren – siehe [Elite-Mobs & Bosse](elite-mobs.md).
 
-Was unterscheidet Elite-Mobs von normalen? Elite-Mobs haben ein sichtbares Namens-Tag und mehr Attribute. Sie droppen spezielle Loots wie Elite-Schriftrollen oder Moneten.
+**Was unterscheidet Elite-Mobs von normalen Monstern?**
+Elite-Mobs tragen sichtbare Effekte/Partikel, haben ein Namensschild, mehr Attribute und droppen besondere Beute wie **Elite Coins** und Ausrüstung.

@@ -1,22 +1,35 @@
-# Inhaltsverzeichnis
+# Willkommen im Irrenhaus Gaming Wiki
 
-Dieses Wiki ist in thematische Abschnitte unterteilt. Jede Kategorie fasst verwandte Seiten zusammen, damit Du schnell findest, was Du suchst. Umfangreiche Themen werden bei Bedarf in Unterseiten ausgelagert.
+Hier findest du alles, was du für unsere Minecraft-Server brauchst – von den ersten Schritten bis zu den Feinheiten von Kämpfen, Wirtschaft und Bauen. Nutze die **Suche** oben oder die **Navigation** links, um schnell ans Ziel zu kommen.
 
-## Kategorien
-- **Allgemein**  
-  Basiswissen und Spielersysteme (Handel, Shops, Teleport, Quests, Inventar, Wirtschaft etc.).
+## Die drei Welten
 
-- **Gameplay**  
-  Dinge direkt im Spiel: Mobs, Elite-Mobs und Bosse, Dungeons, Weltgenerierung, besondere Biome und Loot-Systeme.
+- **Lobby** – Treffpunkt, Portale und Spieler-Shops.
+- **Abenteuerwelt** – Survival mit skalierenden Monstern, Elite-Bossen, Dungeons und Wirtschaft.
+- **Bauwelt** – kreatives Bauen auf eigenen Plots.
 
-- **FAQ**  
-  Häufig gestellte Fragen und kurze, praktische Antworten für neue Spieler und Veteranen.
+Dein Inventar wird zwischen den Welten synchronisiert.
 
-- **Glossar**  
-  Wichtige Begriffe und Abkürzungen in kurzer, leicht verständlicher Form.
+## Themenbereiche
 
+### ⚔️ Kampf
+Wie Monster mit dir [skalieren](kampf/monstertypen.md), [Elite-Mobs & Bosse](kampf/elite-mobs.md), die Abenteurergilde, [Skills](kampf/skills.md), [Dungeons](kampf/dungeons.md), [Strukturen](kampf/strukturen.md) und die [Welt](kampf/welt.md).
 
-## Ordnung und Navigation
-- Die Seiten sind innerhalb jeder Kategorie alphabetisch sortiert.  
-- Lange Themen werden in sinnvolle Unterseiten aufgeteilt (z. B. „Bossmechaniken“, „Dungeon-Loot-Tiers“). Solche Unterseiten werden von der entsprechenden Hauptseite verlinkt.  
-- Nutze die Suche oder die Dateinamen, um schnell zu einer Seite zu springen.
+### 💰 Wirtschaft
+[Moneten](wirtschaft/moneten.md), [ChestShops](wirtschaft/chestshops.md), der [Adminshop](wirtschaft/adminshop.md) und das [Auktionshaus](wirtschaft/auktionen.md).
+
+### 🏠 Zuhause
+[Home & Teleport](zuhause/home-und-teleport.md), [Claims](zuhause/claims.md) und [Plots](zuhause/plots.md).
+
+### 🧰 Funktionen
+[Mining & VeinMiner](funktionen/mining.md), [Backpacks](funktionen/inventar_backpacks.md), [Quests](funktionen/quests.md), [Cosmetics & Ränge](funktionen/cosmetics_ranks.md), [Verzauberungen](funktionen/verzauberungen.md), [Gegenstände](funktionen/gegenstaende.md) und [Kleinigkeiten](funktionen/kleinigkeiten.md).
+
+### 🗺️ Mods
+Optionaler [Sprachchat](mods/voicechat.md) und [Minimap-Mods](mods/map-minimap.md).
+
+### ❓ Sonstiges
+[Regeln](sonstiges/regeln.md), [FAQ](sonstiges/faq.md), [Glossar](sonstiges/glossar.md), [Voting](sonstiges/voting.md) und [Quellen](sonstiges/quellen.md).
+
+---
+
+Neu hier? Starte mit der [FAQ](sonstiges/faq.md) und den [Regeln](sonstiges/regeln.md). Fragen beantwortet dir jederzeit die Community im [Discord](https://discord.irrenhaus-gaming.de/).

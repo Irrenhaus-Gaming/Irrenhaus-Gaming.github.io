@@ -1,41 +1,58 @@
-Voting und Belohnungen
+# Voting & Belohnungen
 
-Voting führt zur Stimmabgabe für den Server auf Community-Webseiten. Jede Abstimmung bringt Belohnungen wie Moneten und Items.
+Mit dem **Voting** unterstützt du den Server auf öffentlichen Serverlisten – und wirst dafür belohnt. Für jede Stimme bekommst du **[Moneten](../wirtschaft/moneten.md)** und sammelst zusätzlich **Vote-Punkte** für den **Vote-Shop**.
 
-Befehle:
-```
-/vote total     // Zeigt die Gesamtstimmen an.
-/vote last      // Zeigt, wann du zuletzt gevotet hast.
-/vote next      // Zeigt, wann du erneut stimmen kannst.
-/vote today     // Zeigt an, wer heute alles gevotet hat.
-/vote gui       // Öffnet ein GUI mit Voting-Webseiten und Belohnungen.
+## So stimmst du ab
 
 ```
+/vote        // Öffnet das Voting-Menü mit allen Seiten
+```
 
-Beispiel:
+Im Menü findest du alle Voting-Seiten mit anklickbaren Links. Stimme auf jeder Seite ab – deine Vote-Punkte werden dir kurz darauf gutgeschrieben. Auf **jeder Seite kannst du alle 24 Stunden** einmal abstimmen.
 
-/vote next – Sagt dir, wann du erneut auf eine Website voten kannst.
+## Voting-Seiten
 
-/vote gui – Öffnet ein Menü mit allen Voting-Seiten des Servers und den Belohnungen.
+Der Server ist auf diesen Listen eingetragen:
 
-Belohnungen: Für jede erfolgreiche Stimme erhältst du vordefinierte Belohnungen (Moneten, Items oder Keys). Oft gibt es Bonus-Geld für das erste Voten am Tag oder Medaillen für 1000 Stimmen etc.
+| Seite |
+|-------|
+| Minecraft.Buzz |
+| PlanetMinecraft.com |
+| Minecraft-Server-List (MCSL) |
+| findmcserver.com |
+| minecraft-servers.de |
+| CurseForge |
+| play-minecraft-servers.com |
+| Minecraft-Server.net |
+| TopMinecraftServers |
+| Best-Minecraft-Servers (BMC) |
+| Minecraft-MP.com |
+| TopG.org |
 
-Serverunterschiede:
+!!! tip "Die Links stehen im Spiel"
+    Öffne `/vote` – dort sind alle Seiten mit direkten Vote-Links hinterlegt und du siehst auf einen Blick, wo du gerade abstimmen kannst.
 
-Jede Stimme gilt serverweit. Nutze die im GUI angezeigten Links und befolge deren Regeln.
+## Belohnungen
 
-Nach dem Voten musst du meist den Server melden, ehe Belohnungen gutgeschrieben werden (je nach System).
+- Jede Stimme bringt dir **Moneten**.
+- Zusätzlich sammelst du **Vote-Punkte**, die du im **Vote-Shop** gegen Gegenstände (z. B. Diamanten) eintauschst.
+- Deine Stimmen, Moneten und Punkte zählen **serverweit**.
 
-Tipps / Best Practices:
+## Weitere Befehle
 
-Stimme jeden Tag, um tägliche Extras zu erhalten.
+```
+/vote total   // Deine gesammelten Stimmen
+/vote top     // Bestenliste der fleißigsten Wähler
+/vote next    // Wann du erneut abstimmen kannst
+```
 
-Schaue nach Events: Manche Events bieten Bonus-Belohnungen beim Voting (nicht bestätigt).
+## Häufige Fragen
 
-FAQ:
+**Was bekomme ich fürs Voten?**
+**Moneten** – und zusätzlich Vote-Punkte, die du im **Vote-Shop** ausgibst.
 
-F: Wie viele Sites kann ich am Tag abstimmen?
-A: Üblich sind 2 oder 3 verschiedene Voting-Seiten pro Tag. Im Voting-Menü steht, welche du nutzen kannst.
+**Wie oft kann ich abstimmen?**
+Auf jeder Seite einmal pro **24 Stunden** – bei 12 Seiten lohnt sich das täglich.
 
-F: Wann erhalte ich meine Belohnung?
-A: Meist sofort nach dem Voten, manchmal musst du dich erneut im Spiel „einloggen“ oder /vote gui aktualisieren.
+**Meine Belohnung fehlt.**
+Warte einen Moment oder öffne `/vote` erneut. Manche Listen brauchen kurz, bis die Stimme beim Server ankommt.

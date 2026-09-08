@@ -1,0 +1,46 @@
+/* Irrenhaus Gaming — brand theming for MkDocs Material
+   Palette pulled from the Helios landing site (assets/sass/main.scss):
+   accent #df7366 (hover #ef8376) · dark surfaces #2b252c / #3b353c · headings #483949 */
+
+:root {
+  --ih-coral: #df7366;
+  --ih-coral-light: #ef8376;
+  --ih-plum: #483949;
+}
+
+/* Light scheme: coral primary/accent */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--ih-coral);
+  --md-primary-fg-color--light: var(--ih-coral-light);
+  --md-primary-fg-color--dark: #c85f53;
+  --md-accent-fg-color: var(--ih-coral-light);
+  --md-typeset-a-color: #c85f53;
+}
+
+/* Dark scheme (slate): coral accents on the site's dark plum surfaces */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--ih-coral);
+  --md-primary-fg-color--light: var(--ih-coral-light);
+  --md-primary-fg-color--dark: #2b252c;
+  --md-accent-fg-color: var(--ih-coral-light);
+  --md-typeset-a-color: var(--ih-coral-light);
+
+  /* Match the landing site's dark plum backgrounds */
+  --md-default-bg-color: #2b252c;
+  --md-default-bg-color--light: #3b353c;
+  --md-code-bg-color: #211c22;
+  --md-footer-bg-color: #211c22;
+  --md-footer-bg-color--dark: #1b171c;
+}
+
+/* Header bar stays dark plum in both schemes so it reads as the same brand */
+.md-header,
+.md-tabs {
+  background-color: #2b252c;
+  color: #ffffff;
+}
+
+/* Coral hover on nav/links for both schemes */
+.md-typeset a:hover {
+  color: var(--ih-coral-light);
+}
