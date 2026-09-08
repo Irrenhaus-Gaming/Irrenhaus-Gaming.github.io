@@ -1,16 +1,31 @@
 # Strukturen
 
-Beim Erkunden findest du besondere Strukturen und Dungeons mit Schätzen. Diese Dungeons enthalten Truhen und oft neue Items oder Verzauberungen.
+Beim Erkunden der Abenteuerwelt findest du überall besondere **Bauwerke** – von kleinen Schreinen über Tavernen bis zu ganzen unterirdischen Anlagen. Viele werden von Elite-Mobs und Bossen bewacht und enthalten wertvolle Beute.
 
-## Neue Strukturen
+## Bewachte Zonen
 
-- Tavernen und Außenposten: Zufällig verteilte Gebäude wie Tavernen oder Minendungeons bieten Ressourcen und NPCs. Beispielsweise gibt es einen Kartografen in Tavernen, der dir mit Schatzkarten hilft.
+Viele Strukturen sind **geschützte Zonen**: Du kannst dort erst Blöcke abbauen oder platzieren, wenn du die **Bosse der Zone besiegt** hast.
 
-- Illager-Verstecke und Outposts: In der Welt können Forts oder Verstecke von Illagern (Pillagers, Vindicators) erscheinen. Sie sind von Monstern bewacht.
+!!! warning "Erst kämpfen, dann bauen"
+    Versuchst du, in einer geschützten Struktur zu bauen, erscheint der Hinweis: *„Defeat the zone's bosses to edit blocks!"* Besiege die zugehörigen Bosse, um die Zone freizuschalten.
 
-- Nether-Dungeons: Im Nether gibt es neue Festungen wie die Verbotene Burg oder das Sanctum. Dort kämpfst du gegen neue Gegner (z.B. Giftwürmer, Geister) und bekommst spezielle Waffen.
+## Arten von Strukturen
 
-## Loot und Belohnungen
+- **Tavernen & Außenposten:** Zufällig verteilte Gebäude mit Ressourcen und NPCs – z. B. ein Kartograf, der dir mit Schatzkarten weiterhilft.
+- **Illager-Verstecke & Forts:** Von Pillagern und Vindicators bewachte Anlagen.
+- **Schreine & Ruinen:** Kleinere Fundorte mit gezielter Beute.
+- **Nether-Strukturen:** Neue Festungen und Sankten mit eigenen Gegnern (siehe [Welt & Terrain](welt.md)).
+- **Unterirdische Anlagen:** Katakomben und Höhlensysteme tief unter der Oberfläche.
 
-In Kisten findest du seltene Materialien, Waffen oder neue Verzauberungsbücher. Zum Beispiel gibt es spezielle [Verzauberungen](/wiki/funktionen/verzauberungen), die nur in Dungeons auftauchen.
+Strukturen erscheinen an Land, unter der Erde und seltener in der Luft oder im Ozean – überall gibt es also etwas zu entdecken.
 
+## Loot & Belohnungen
+
+In den Kisten der Strukturen findest du seltene Materialien, Ausrüstung und Verzauberungsbücher. Ein Teil der Beute ist an deinen **Gildenrang** gebunden.
+
+- Elite-Beute, Schatzkisten & Verzauberungs-Herausforderungen: [Verzauberungen & Loot](verzauberungen-loot.md)
+- Craftbare Sonder-Verzauberungen: [Verzauberungen & magische Items](../funktionen/verzauberungen.md)
+
+## Struktur vs. Dungeon
+
+**Strukturen** sind frei begehbare Bauwerke in der offenen Welt. **[Dungeons](dungeons.md)** sind abgeschlossene, oft instanzierte Herausforderungen mit eigenen Regeln (begrenzte Leben, Wiederbelebung, kein PvP).

@@ -29,7 +29,7 @@ Hole die Erlöse von abgeschlossenen Auktionen und die Gegenstände von abgelauf
 /ah auction
 ```
 
-![Beispiel Screenshot](/images/examples/auction.png "Auktion Erstellen"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](../images/examples/auction.png "Auktion Erstellen"){style="max-width:100%;height:auto;display:block;"}
 
 ### Interface Erklärung:
 
@@ -45,7 +45,7 @@ Hole die Erlöse von abgeschlossenen Auktionen und die Gegenstände von abgelauf
   - **Verkauf**:
     Bei einem Verkauf steht die Auktion für eine bestimmte Zeit im Markt und Spieler können die Auktion jederzeit sofort kaufen. Wenn ein Spieler die Auktion kauft, kann er im Bestätigungsmenü die Menge wählen dadurch ändert sich natürlich auch der Gesamtpreis (weniger Menge = niedrigerer Preis).
 
-- Per Klick auf den **Goldbarren** kann die Währung für den Gegenstand umgestellt werden. Unterstützte Währungen sind [Moneten](/wiki/economy/moneten), XP und Items.
+- Per Klick auf den **Goldbarren** kann die Währung für den Gegenstand umgestellt werden. Unterstützte Währungen sind [Moneten](moneten.md), XP und Items.
 
 - Per Klick auf die **Glasscheiben** kann der Preis der Auktion angepasst werden. Grüne Scheiben erhöhen den Preis, rote Scheiben verringern ihn. Einzelne Scheibe = ±1, eine 10er-Scheibe = ±10, ein Stack (64) = ±100. Alternativ kann über das untere Schild der Preis direkt eingegeben werden.
 
@@ -62,7 +62,7 @@ Wenn niemand den Artikel gekauft hat und die Zeit abgelaufen ist, erscheint der 
 
 Nach dem Anlegen einer Auktion erscheint eine Bestätigung im Chat. Außerdem wird ein Post im Discord [Auktionshaus Chat](https://discord.com/channels/1157772945784066088/1318892133041705022) erstellt. Halte immer ein Auge auf neue Auktionen!
 
-![Beispiel Screenshot](/images/examples/discord_ah_anouncement.png "Discord Post"){style="max-width:100%;height:auto;display:block;"}
+![Beispiel Screenshot](../images/examples/discord_ah_anouncement.png "Discord Post"){style="max-width:100%;height:auto;display:block;"}
 
 ## Tipps
 
@@ -73,7 +73,7 @@ Nach dem Anlegen einer Auktion erscheint eine Bestätigung im Chat. Außerdem wi
 
 ## Einschränkungen
 
-- **[Elite- und Bossloot](/kampf/elites)** sowie **verfluchte Gegenstände** können **nicht** im Auktionshaus gelistet werden.
+- **[Elite- und Bossloot](../kampf/verzauberungen-loot.md)** sowie **verfluchte Gegenstände** können **nicht** im Auktionshaus gelistet werden.
 
 ## FAQ
 

@@ -1,0 +1,17 @@
+# Generated site output — built in CI, never committed.
+# Landing pages (rendered from templates/ by page-generation/generatePages.py):
+/index.html
+/minecraft.html
+/404.html
+/under-construction.html
+# Wiki (built from wiki-sources/ by MkDocs):
+/wiki/
+# CI staging dir for the Pages artifact:
+/_site/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local tooling
+.claude/

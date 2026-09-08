@@ -1,43 +1,68 @@
-Glossar
+# Glossar
 
-Moneten: Serverwährung (Geld), angezeigt mit /balance.
+Wichtige Begriffe rund um den Server – kurz erklärt.
 
-Claim/Grundstück: Ein geschützter Bereich (meist ein Chunk), den nur der Besitzer bearbeiten kann.
+## Wirtschaft
 
-Plot: Eigentums-Fläche in der Bauwelt (meist rechteckig). Besitzer kann darin bauen, Spieler nutzen /plot-Befehle.
+**Moneten**
+: Die Server-Währung. Verdienst du durch Quests, Handel, Auktionen und Voting. Siehe [Moneten](../wirtschaft/moneten.md).
 
-Home: Ein vom Spieler gesetzter Ausgangsort. Mit /sethome speichert man ihn und kommt mit /home zurück.
+**Elite Coins**
+: Eigene Währung aus [Elite-Mob-Kämpfen](../kampf/elite-mobs.md), getrennt von den Moneten.
 
-Spawn: Der Haupt-Startpunkt der Welt. Gibt es oft für Lobby und Adventure jeweils. /spawn teleportiert dorthin.
+**ChestShop**
+: Von Spielern betriebener Laden aus Truhe + Schild. Siehe [ChestShops](../wirtschaft/chestshops.md).
 
-Warp: Vordefinierter Schnellreise-Punkt, z.B. zu Event-Arenen oder Handelshäusern. Befehle: /warp <Name>.
+**AdminShop**
+: Shop mit unbegrenztem Vorrat zu festen Preisen. Siehe [Adminshop](../wirtschaft/adminshop.md).
 
-Server: Oft über /server <Name> beteiligte Serverinstanz (z.B. Lobby, Adventure, Bauwelt) – nur wenn vernetzt.
+## Kampf & Fortschritt
 
-Auktion: Marktplatz, in dem Items versteigert werden. Befehle /auktion verkaufen, /auktion bieten.
+**Elite-Mob**
+: Verstärkte Version eines normalen Monsters mit Spezialfähigkeiten und besserer Beute.
 
-ChestShop: Spieler-Shop, den man mit einem Schild an einer Kiste erstellt. Siehe Anleitung auf entsprechenden Seiten.
+**Boss**
+: Seltener, einzigartiger Gegner mit viel Leben, Schwächen und eigenen Mechaniken.
 
-AdminShop: Shops mit unbegrenztem Bestand (System-Shops). Funktionieren wie ChestShops, aber mit Serverinventar.
+**Abenteurergilde**
+: Das Fortschrittssystem (`/ag`) mit Rängen, die dir dauerhaft Leben, Krit- und Ausweichchance geben.
 
-Home (1-3): Feste eigene Orte. Man kann z.B. mehrere unter Namen anlegen (je nach Rang/Plugin).
+**Gildenrang**
+: Deine Stufe in der Abenteurergilde (Commoner → Hero → Prestige). Schaltet Beute und Boni frei.
 
-Money/Balance: Moneten-Konto. /balance zeigt es an, /pay überweist an andere.
+**Skills / Fertigkeiten**
+: 15 Fertigkeiten (Mining, Fighting, Farming …), die durch Spielen steigen. Siehe [Skills](../kampf/skills.md).
 
-Voice-Chat: Integrierter Sprachchat. Drücke V für Einstellungen. Port 24454 muss offen sein.
+**Skalierung**
+: Monster werden mit dem durchschnittlichen Level der Spieler in der Nähe stärker.
 
-Rang (Tag): Titel im Chat (z.B. „Spieler“, „VIP“). Wird durch Permissions/Rangsystem festgelegt, meist Kauf oder Belohnung.
+## Welt & Zuhause
 
-Cosmetics (Kosmetika): Optische Spielereffekte (Haustiere, Hüte, Effekte) ohne Einfluss aufs Gameplay. Erhältlich durch Kisten oder Menüs.
+**Claim**
+: Chunkweiser Grundstücksschutz in der Abenteuerwelt. Siehe [Claims](../zuhause/claims.md).
 
-PlotSystem: Grundstücksverwaltung in Bauwelt (Eigentumsflächen). Befehle: /plot claim, /plot auto, /plot home, etc.
+**Plot**
+: Vorgefertigtes Baugrundstück in der Bauwelt. Siehe [Plots](../zuhause/plots.md).
 
-Quests: Aufgaben, die man erfüllen kann. Belohnungen in Moneten. Anzeigen: /quests, /quests journal.
+**Chunk**
+: Ein Weltabschnitt von 16 × 16 Blöcken – die Einheit, in der Claims vergeben werden.
 
-VeinMiner: Hilfssystem, das ganze zusammenhängende Erzgänge abbaut. Aktivieren mit /veinminer enable.
+**Home**
+: Ein selbst gesetzter Teleport-Punkt (`/sethome`). Bis zu 10 möglich.
 
-ToolStats: Anzeige für Werkzeuge. Zeigt z.B. in Lore, wie viele Blöcke mit Spitzhacke abgebaut wurden.
+**Warp**
+: Öffentlicher Teleport-Punkt (`/warp`), z. B. zu Shop oder Abenteurergilde.
 
-Trifles: Kleine Quality-of-Life-Features (Vane) wie Doppeltür-Synchronisierung, Pflanzenernte per Rechtsklick, usw. (automatisch aktiv).
+**Struktur**
+: Frei begehbares Bauwerk in der Welt, oft mit Bossen und Beute. Siehe [Strukturen](../kampf/strukturen.md).
 
-Zentrierte Begriffe: Begriff wird im Wiki noch nicht verwendet (Aktualisierungen folgen).
+**Dungeon**
+: Abgeschlossene, oft instanzierte Herausforderung mit eigenen Regeln. Siehe [Dungeons](../kampf/dungeons.md).
+
+## Technik
+
+**VeinMiner**
+: Baut zusammenhängende Erzadern auf einmal ab. Siehe [Mining](../funktionen/mining.md).
+
+**Proximity-Sprachchat**
+: Sprachchat, bei dem Lautstärke von der Entfernung abhängt. Siehe [Sprachchat](../mods/voicechat.md).
