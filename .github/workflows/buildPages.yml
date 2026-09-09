@@ -55,7 +55,8 @@ jobs:
       - name: Assemble Pages site
         run: |
           mkdir -p _site
-          cp index.html minecraft.html 404.html under-construction.html _site/
+          # All generated landing + game pages live at the repo root as *.html.
+          cp *.html _site/
           cp -r assets images wiki _site/
 
       - name: Upload static files as artifact

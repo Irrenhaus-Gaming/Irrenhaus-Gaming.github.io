@@ -7,7 +7,9 @@ TEMPLATE_PATH = "templates"
 LAYOUT_PATH = "page-generation/page-layout.json"
 
 def render_page(env, page):
-    template = env.get_template( page.get("file"))
+    # A page may reuse a shared template (e.g. game.html) via "template";
+    # otherwise the output file itself is the template (e.g. index.html).
+    template = env.get_template(page.get("template", page.get("file")))
     output_html = template.render(
         generated_at=datetime.now(timezone.utc).timestamp(),
         page=page,

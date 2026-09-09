@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Shared landing page for a single game. Rendered once per entry in
+	page-generation/page-layout.json that sets "template": "game.html".
+	Expected page data: name, tagline, description, image; optional status, features.
+-->
+<html>
+
+<head>
+	<title>{{ page.name }} | Irrenhaus Gaming</title>
+	{% include 'header-imports.html' %}
+	<!-- Primary SEO -->
+	<meta name="description" content="{{ page.description }}">
+	<meta name="keywords"
+		content="Irrenhaus Gaming, {{ page.name }}, {{ page.name }} Server, deutscher Server, Community, Gaming">
+	<meta name="author" content="Irrenhaus Gaming">
+
+	<!-- Open Graph / Social -->
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Irrenhaus Gaming">
+	<meta property="og:title" content="{{ page.name }} | Irrenhaus Gaming">
+	<meta property="og:description" content="{{ page.description }}">
+	<meta property="og:image" content="https://irrenhaus-gaming.de{{ page.image }}">
+	<meta property="og:locale" content="de_DE">
+
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@IrrenhausGaming">
+	<meta name="twitter:title" content="{{ page.name }} | Irrenhaus Gaming">
+	<meta name="twitter:description" content="{{ page.description }}">
+	<meta name="twitter:image" content="https://irrenhaus-gaming.de{{ page.image }}">
+
+	<style>
+		.ih-badge {
+			display: inline-block;
+			padding: 0.35em 1em;
+			border: 1px solid #df7366;
+			border-radius: 2em;
+			background: rgba(223, 115, 102, 0.12);
+			color: #ef8376;
+			font-size: 0.7em;
+			font-weight: 700;
+			letter-spacing: 0.25em;
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+
+<body class="no-sidebar is-preload" data-bs-theme="dark">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		{% include 'page-header.html' %}
+
+		<!-- Main -->
+		<div class="wrapper style1">
+
+			<div class="container">
+				<article id="main" class="special">
+					<header>
+						<h2>{{ page.name }}</h2>
+						<p>{{ page.tagline }}</p>
+						<p><span class="ih-badge">{{ page.status | default('Bald verfügbar') }}</span></p>
+					</header>
+
+					<a href="#" class="image featured"><img src="{{ page.image }}" alt="{{ page.name }}" /></a>
+
+					<section>
+						<p>{{ page.description }}</p>
+						{% if page.features %}
+						<header>
+							<h3>Was dich erwartet</h3>
+						</header>
+						<ul>
+							{% for feature in page.features %}
+							<li>{{ feature }}</li>
+							{% endfor %}
+						</ul>
+						{% endif %}
+					</section>
+
+					<section>
+						<header>
+							<h3>Noch in Vorbereitung</h3>
+						</header>
+						<p>Dieser Server ist noch nicht live. Wir stecken gerade Arbeit in
+							Einstellungen, Mods und Regeln, damit der Start rundläuft. Willst du
+							nichts verpassen oder Wünsche einbringen? Komm auf unseren Discord –
+							dort kündigen wir jeden Serverstart zuerst an.</p>
+						<footer>
+							<a class="button" href="https://discord.irrenhaus-gaming.de/">Auf dem Laufenden bleiben</a>
+							<a class="button alt" href="/">Zurück zur Übersicht</a>
+						</footer>
+					</section>
+				</article>
+				<hr />
+			</div>
+
+		</div>
+
+		<!-- Footer -->
+		{% include 'footer.html' %}
+
+	</div>
+
+	<!-- Scripts -->
+	{% include 'scripts.html' %}
+
+</body>
+
+</html>

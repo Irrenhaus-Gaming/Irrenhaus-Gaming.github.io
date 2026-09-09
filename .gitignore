@@ -1,9 +1,7 @@
 # Generated site output — built in CI, never committed.
-# Landing pages (rendered from templates/ by page-generation/generatePages.py):
-/index.html
-/minecraft.html
-/404.html
-/under-construction.html
+# Landing + game pages (rendered from templates/ by page-generation/generatePages.py).
+# All root-level .html are generated; sources live in templates/.
+/*.html
 # Wiki (built from wiki-sources/ by MkDocs):
 /wiki/
 # CI staging dir for the Pages artifact:

@@ -44,3 +44,38 @@
 .md-typeset a:hover {
   color: var(--ih-coral-light);
 }
+
+/* --- Grid cards on the landing/overview pages --- */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 0.5rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > .card:hover {
+  border-color: var(--ih-coral);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Card lead icons in brand coral */
+.md-typeset .grid.cards .lg.middle svg,
+.md-typeset .grid.cards .twemoji.lg svg {
+  fill: var(--ih-coral);
+}
+
+/* --- "Zur Website" link: make the way back obvious --- */
+/* As a top-level tab */
+.md-tabs__item a[href^="https://irrenhaus-gaming.de"] {
+  font-weight: 700;
+}
+
+/* In the sidebar nav (when tabs collapse on mobile) */
+.md-nav__link[href^="https://irrenhaus-gaming.de"] {
+  font-weight: 700;
+  color: var(--ih-coral-light);
+}
+.md-nav__link[href^="https://irrenhaus-gaming.de"]:hover {
+  color: var(--ih-coral);
+}

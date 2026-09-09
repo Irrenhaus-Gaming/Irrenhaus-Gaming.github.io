@@ -1,11 +1,12 @@
 site_name: Irrenhaus Gaming Wiki
 site_description: Wiki und Anleitungen für die Irrenhaus Gaming Server.
 site_author: Irrenhaus Gaming
-site_url: https://irrenhaus-gaming.de/wiki/
+site_url: https://irrenhaus-gaming.de/wiki/minecraft/
 
-# Reuse the existing Markdown sources; build into the /wiki/ subpath of the site.
+# Reuse the existing Markdown sources; build into the /wiki/minecraft/ subpath of the
+# site. Each game gets its own wiki under /wiki/<game>/ so more can be added later.
 docs_dir: wiki-sources
-site_dir: wiki
+site_dir: wiki/minecraft
 use_directory_urls: true
 
 # Files that live under docs_dir but must not be published as pages.
@@ -37,12 +38,18 @@ theme:
         icon: material/weather-sunny
         name: Zum dunklen Design wechseln
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - navigation.indexes
     - navigation.tracking
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
     - toc.follow
     - content.code.copy
+    - content.tooltips
     - search.suggest
     - search.highlight
 
@@ -79,6 +86,7 @@ markdown_extensions:
 
 nav:
   - Übersicht: index.md
+  - Erste Schritte: erste-schritte.md
   - Funktionen:
       - Cosmetics & Ränge: funktionen/cosmetics_ranks.md
       - Inventar & Backpacks: funktionen/inventar_backpacks.md
@@ -108,8 +116,10 @@ nav:
       - Map & Minimap: mods/map-minimap.md
       - Voicechat: mods/voicechat.md
   - Sonstiges:
+      - Befehle: sonstiges/befehle.md
       - Regeln: sonstiges/regeln.md
       - FAQ: sonstiges/faq.md
       - Glossar: sonstiges/glossar.md
       - Voting: sonstiges/voting.md
       - Quellen: sonstiges/quellen.md
+  - ↩ Zur Website: https://irrenhaus-gaming.de/

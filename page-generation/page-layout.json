@@ -2,9 +2,9 @@
     "page-layout": {
         "title": "Irrenhaus Gaming Website Layout",
         "description": "Layout configuration for the Irrenhaus Gaming website.",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "author": "Irrenhaus Gaming Team",
-        "last_updated": "2025-11-15"
+        "last_updated": "2026-09-09"
     },
     "pages": [
         {
@@ -18,8 +18,126 @@
         },
         {
             "file": "under-construction.html"
+        },
+        {
+            "file": "wiki/index.html"
+        },
+        {
+            "file": "ark-survival-ascended.html",
+            "template": "game.html",
+            "name": "Ark: Survival Ascended",
+            "tagline": "Survival mit Dinos & Mods auf mehreren Maps!",
+            "description": "Zähme Dinosaurier, baue Basen und erkunde mehrere Maps – mit handverlesenen Mods für ein modernes Survival-Erlebnis.",
+            "image": "/images/games/ark_sa.jpg",
+            "features": [
+                "Mehrere Maps",
+                "Handverlesene Mods",
+                "Zähmen, Bauen & Erkunden"
+            ]
+        },
+        {
+            "file": "dayz.html",
+            "template": "game.html",
+            "name": "DayZ",
+            "tagline": "Hardcore-Survival mit dynamischen Events und ausgebauter Loot-Economy.",
+            "description": "Überlebe in einer gnadenlosen offenen Welt: Hunger, Durst, Infizierte und andere Spieler – mit dynamischen Events und einer durchdachten Loot-Economy.",
+            "image": "/images/games/day_z.jpg",
+            "features": [
+                "Hardcore-Survival",
+                "Dynamische Events",
+                "Ausgebaute Loot-Economy"
+            ]
+        },
+        {
+            "file": "vrising.html",
+            "template": "game.html",
+            "name": "V Rising",
+            "tagline": "Koop & PvP, Basenbau und Progression für Gruppen.",
+            "description": "Erwache als Vampir, baue dein Schloss und werde stärker – allein, im Koop oder im PvP gegen andere Clans.",
+            "image": "/images/games/v_rising.jpg",
+            "features": [
+                "Koop & PvP",
+                "Basen- und Schlossbau",
+                "Progression für Gruppen"
+            ]
+        },
+        {
+            "file": "conan-exiles.html",
+            "template": "game.html",
+            "name": "Conan Exiles",
+            "tagline": "Clan-Kämpfe, Crafting-Tiefgang und mehr.",
+            "description": "Überlebe in den brutalen Exiled Lands, gründe einen Clan, baue gewaltige Festungen und miss dich mit anderen.",
+            "image": "/images/games/conan_exiles.jpg",
+            "features": [
+                "Clan-Kämpfe",
+                "Tiefes Crafting- & Bausystem",
+                "Brutale offene Welt"
+            ]
+        },
+        {
+            "file": "ark-survival-evolved.html",
+            "template": "game.html",
+            "name": "Ark: Survival Evolved",
+            "tagline": "Survival mit Dinos in Hardcore-Modded Umgebung.",
+            "description": "Der Klassiker der Dino-Survival-Spiele – bei uns in einer Hardcore-Modded-Umgebung für Veteranen.",
+            "image": "/images/games/ark_se.jpg",
+            "features": [
+                "Dino-Survival",
+                "Hardcore-Modded",
+                "Für Veteranen"
+            ]
+        },
+        {
+            "file": "factorio.html",
+            "template": "game.html",
+            "name": "Factorio",
+            "tagline": "Baue eine Community-Fabrik und automatisiere deine Produktion.",
+            "description": "Plant, baut und automatisiert gemeinsam eine gigantische Fabrik – Logistik, Forschung und Verteidigung inklusive.",
+            "image": "/images/games/factorio.jpg",
+            "features": [
+                "Gemeinsame Community-Fabrik",
+                "Automatisierung & Logistik",
+                "Forschung & Verteidigung"
+            ]
+        },
+        {
+            "file": "rust.html",
+            "template": "game.html",
+            "name": "Rust",
+            "tagline": "Stelle dich dem brutalen PvP mit Basen, Raids und Events.",
+            "description": "Sammle Rohstoffe, baue deine Basis und behaupte dich im gnadenlosen PvP – mit Raids und regelmäßigen Events.",
+            "image": "/images/games/rust.jpg",
+            "features": [
+                "Brutales PvP",
+                "Basenbau & Raids",
+                "Regelmäßige Events"
+            ]
+        },
+        {
+            "file": "arma-3.html",
+            "template": "game.html",
+            "name": "Arma 3",
+            "tagline": "Realistische MilSim-Operationen und kooperative Missionen.",
+            "description": "Taktik, Teamwork und Realismus: Plant und spielt kooperative MilSim-Operationen in großem Maßstab.",
+            "image": "/images/games/arma_3.jpg",
+            "features": [
+                "Realistische MilSim",
+                "Kooperative Missionen",
+                "Taktik & Teamwork"
+            ]
+        },
+        {
+            "file": "valheim.html",
+            "template": "game.html",
+            "name": "Valheim",
+            "tagline": "Gemütliche Survival-Koop-Welten mit Bossfights.",
+            "description": "Erkunde eine von der nordischen Mythologie inspirierte Welt, baue mit Freunden und stellt euch epischen Bossen.",
+            "image": "/images/games/valheim.jpg",
+            "features": [
+                "Gemütlicher Koop-Survival",
+                "Bau & Erkundung",
+                "Epische Bossfights"
+            ]
         }
-
     ]
-
 }
